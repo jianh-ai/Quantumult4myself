@@ -1,4 +1,4 @@
 # > Microsoft
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,microsoft.com
+host-suffix, bing.com
+host-suffix, msn.com
+host-suffix, microsoft.com
