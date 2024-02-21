@@ -1,15 +1,98 @@
+# > Alphabet
+host-suffix, abc.xyz
+host-suffix, admob.com
+host-suffix, adsense.com
+host-suffix, advertisercommunity.com
+host-suffix, ampproject.org
+host-suffix, android.com
+host-suffix, androidify.com
+host-suffix, androidtv.com
+host-suffix, api.ai
+host-suffix, apigee.com
+host-suffix, appspot.com
+host-suffix, blogblog.com
+host-suffix, blogger.com
+host-suffix, chrome.com
+host-suffix, chromium.org
+host-suffix, debug.com
+host-suffix, dialogflow.com
+host-suffix, feedburner.com
+host-suffix, firebaseio.com
+host-suffix, g.co
+host-suffix, getoutline.org
+host-suffix, ggpht.com
+host-suffix, gmail.com
+host-suffix, gmodules.com
+# host-suffix, gstatic.com
+host-suffix, gvt0.com
+host-suffix, gvt1.com
+host-suffix, gvt3.com
+host-suffix, itasoftware.com
+host-suffix, on2.com
+host-suffix, recaptcha.net
+host-suffix, schema.org
+host-suffix, tensorflow.org
+host-suffix, tenor.com
+host-suffix, tfhub.dev
+host-suffix, tiltbrush.com
+host-suffix, waymo.com
+host-suffix, web.dev
+host-suffix, webmproject.org
+host-suffix, webrtc.org
+host-suffix, widevine.com
+host-suffix, xn--ngstr-lra8j.com
+host-suffix, zynamics.com
+host-keyword, .blogspot.
+
+host-suffix, youtu.be
+host-suffix, yt.be
+host-suffix, ytimg.com
+host,yt3.ggpht.com
+host-keyword, youtube
+host-keyword, google
+host-keyword, goog
+ip-cidr, 64.233.177.188/32
+ip-cidr, 64.233.186.188/32
+ip-cidr, 64.233.187.188/32
+ip-cidr, 64.233.188.188/32
+ip-cidr, 64.233.189.188/32
+ip-cidr, 74.125.23.188/32
+ip-cidr, 74.125.24.188/32
+ip-cidr, 74.125.28.188/32
+ip-cidr, 74.125.127.188/32
+ip-cidr, 74.125.137.188/32
+ip-cidr, 74.125.203.188/32
+ip-cidr, 74.125.204.188/32
+ip-cidr, 74.125.206.188/32
+ip-cidr, 108.177.125.188/32
+ip-cidr, 142.250.4.188/32
+ip-cidr, 142.250.10.188/32
+ip-cidr, 142.250.31.188/32
+ip-cidr, 142.250.96.188/32
+ip-cidr, 172.217.194.188/32
+ip-cidr, 172.217.218.188/32
+ip-cidr, 172.217.219.188/32
+ip-cidr, 172.253.63.188/32
+ip-cidr, 172.253.122.188/32
+ip-cidr, 173.194.175.188/32
+ip-cidr, 173.194.218.188/32
+ip-cidr, 209.85.233.188/32
+
 # > adobe
 host-keyword, typekit
 host-keyword, adobe
 
-# > datadog
-host-keyword, datadog
-
-# > demdex
-host-keyword, demdex
-
 # > demandbase
 host-keyword, demandbase
+
+# > Disney+
+user-agent,Disney+*
+host-suffix, bamgrid.com
+host-suffix, disneyplus.com
+host-suffix, disney-plus.net
+host-suffix, disneystreaming.com
+host-suffix, dssott.com
+host, cdn.registerdisney.go.com
 
 # > encoreTVB
 user-agent, encoreTVB*
@@ -32,19 +115,49 @@ host-suffix, huluim.com
 host-suffix, hulustream.com
 
 # > meta
+host-suffix, accountkit.com
+host-suffix, cdninstagram.com
+host-suffix, f8.com
+host-suffix, facebookmail.com
+host-suffix, fb.com
+host-suffix, fb.me
+host-suffix, fb.watch
+host-suffix, fbaddins.com
+host-suffix, fbcdn.net
+host-suffix, fbsbx.com
+host-suffix, fbworkmail.com
+host-suffix, instagram.com
+host-suffix, m.me
+host-suffix, messenger.com
+host-suffix, oculus.com
+host-suffix, oculuscdn.com
+host-suffix, readyatdawn.com
+host-suffix, rocksdb.org
+host-suffix, whatsapp.com
+host-suffix, whatsapp.net
 host-keyword, facebook
 
 # > Microsoft
+
+host-suffix, github.blog
+host-suffix, github.com
+host-suffix, github.io
+host-suffix, githubassets.com
+host-suffix, githubusercontent.com
+
+host-suffix, streaming.mediaservices.windows.net
+host, assets1.xboxlive.com
+host, assets2.xboxlive.com
+host, az416426.vo.msecnd.net
+host, az668014.vo.msecnd.net
+
 host-keyword, microsoft
 host-keyword, msn
 host-keyword, bing
-
 host-keyword, onedrive
 host-keyword, skydrive
 host-suffix, livefilestore.com
 host-suffix, oneclient.sfx.ms
-host-suffix, onedrive.com
-host-suffix, onedrive.live.com
 host-suffix, photos.live.com
 host-suffix, sharepoint.com
 host-suffix, sharepointonline.com
@@ -126,36 +239,18 @@ host-suffix, wunderlist.com
 host-suffix, yammer.com
 host-suffix, yammerusercontent.com
 
-# > Google
-host-keyword, youtube
-host-keyword, google
-host-keyword, goog
-ip-cidr, 64.233.177.188/32
-ip-cidr, 64.233.186.188/32
-ip-cidr, 64.233.187.188/32
-ip-cidr, 64.233.188.188/32
-ip-cidr, 64.233.189.188/32
-ip-cidr, 74.125.23.188/32
-ip-cidr, 74.125.24.188/32
-ip-cidr, 74.125.28.188/32
-ip-cidr, 74.125.127.188/32
-ip-cidr, 74.125.137.188/32
-ip-cidr, 74.125.203.188/32
-ip-cidr, 74.125.204.188/32
-ip-cidr, 74.125.206.188/32
-ip-cidr, 108.177.125.188/32
-ip-cidr, 142.250.4.188/32
-ip-cidr, 142.250.10.188/32
-ip-cidr, 142.250.31.188/32
-ip-cidr, 142.250.96.188/32
-ip-cidr, 172.217.194.188/32
-ip-cidr, 172.217.218.188/32
-ip-cidr, 172.217.219.188/32
-ip-cidr, 172.253.63.188/32
-ip-cidr, 172.253.122.188/32
-ip-cidr, 173.194.175.188/32
-ip-cidr, 173.194.218.188/32
-ip-cidr, 209.85.233.188/32
+# > Netflix
+USER-AGENT,Argo*
+host-suffix, netflix.com
+host-suffix, netflix.net
+host-suffix, nflxext.com
+host-suffix, nflximg.com
+host-suffix, nflximg.net
+host-suffix, nflxso.net
+host-suffix, nflxvideo.net
+host-keyword, netflixdnstest
+host-keyword, apiproxy-device-prod-nlb-
+host-keyword, dualstack.apiproxy-
 
 # > OpenAi
 host-keyword, openai
@@ -188,7 +283,7 @@ user-agent, PBS*
 host-suffix, pbs.org
 
 # > sentry
-host-keyword, sentry
+host-suffix, sentry.io
 
 # > statsigapi
 host-keyword, statsigapi
