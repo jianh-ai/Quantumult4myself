@@ -1,0 +1,195 @@
+# > adobe
+host, dpm.demdex.net
+host-keyword, typekit
+host-keyword, adobe
+
+# > datadog
+host-keyword, datadog
+
+# > demdex
+host-keyword, demdex
+
+# > demandbase
+host-keyword, demandbase
+
+# > encoreTVB
+user-agent, encoreTVB*
+host-suffix, encoretvb.com
+host, edge.api.brightcove.com
+host, bcbolt446c5271-a.akamaihd.net
+
+# > HBO
+user-agent, HBO%20NOW*
+host-suffix, hbo.com
+host-suffix, hbogo.com
+host-suffix, hbonow.com
+user-agent, HBOMAX*
+host-suffix, hbomax.com
+host-suffix, hbomaxcdn.com
+
+# > Hulu
+host-suffix, hulu.com
+host-suffix, huluim.com
+host-suffix, hulustream.com
+
+# > meta
+host-keyword, facebook
+
+# > Microsoft
+host-keyword, microsoft
+host-keyword, msn
+host-keyword, bing
+
+host-keyword, onedrive
+host-keyword, skydrive
+host-suffix, livefilestore.com
+host-suffix, oneclient.sfx.ms
+host-suffix, onedrive.com
+host-suffix, onedrive.live.com
+host-suffix, photos.live.com
+host-suffix, sharepoint.com
+host-suffix, sharepointonline.com
+host-suffix, skydrive.wns.windows.com
+host-suffix, spoprod-a.akamaihd.net
+host-suffix, storage.live.com
+host-suffix, storage.msn.com
+host-keyword, 1drv
+host-suffix, aadrm.com
+host-suffix, acompli.com
+host-suffix, acompli.net
+host-suffix, aka.ms
+host-suffix, akadns.net
+host-suffix, aspnetcdn.com
+host-suffix, assets-yammer.com
+host-suffix, azure.com
+host-suffix, azure.net
+host-suffix, azureedge.net
+host-suffix, azureiotcentral.com
+host-suffix, azurerms.com
+host-suffix, cloudapp.net
+host-suffix, cloudappsecurity.com
+host-suffix, edgesuite.net
+host-suffix, gfx.ms
+host-suffix, hotmail.com
+host-suffix, live.com
+host-suffix, live.net
+host-suffix, lync.com
+host-suffix, msappproxy.net
+host-suffix, msauth.net
+host-suffix, msauthimages.net
+host-suffix, msecnd.net
+host-suffix, msedge.net
+host-suffix, msft.net
+host-suffix, msftauth.net
+host-suffix, msftauthimages.net
+host-suffix, msftidentity.com
+host-suffix, msidentity.com
+host-suffix, msocdn.com
+host-suffix, msocsp.com
+host-suffix, mstea.ms
+host-suffix, o365weve.com
+host-suffix, oaspapps.com
+host-suffix, office.com
+host-suffix, office.net
+host-suffix, office365.com
+host-suffix, officeppe.net
+host-suffix, omniroot.com
+host-suffix, onedrive.com
+host-suffix, onenote.com
+host-suffix, onenote.net
+host-suffix, onestore.ms
+host-suffix, outlook.com
+host-suffix, outlookmobile.com
+host-suffix, phonefactor.net
+host-suffix, public-trust.com
+host-suffix, sfbassets.com
+host-suffix, sfx.ms
+host-suffix, sharepoint.com
+host-suffix, sharepointonline.com
+host-suffix, skype.com
+host-suffix, skypeassets.com
+host-suffix, skypeforbusiness.com
+host-suffix, staffhub.ms
+host-suffix, svc.ms
+host-suffix, sway-cdn.com
+host-suffix, sway-extensions.com
+host-suffix, sway.com
+host-suffix, trafficmanager.net
+host-suffix, uservoice.com
+host-suffix, virtualearth.net
+host-suffix, visualstudio.com
+host-suffix, windows-ppe.net
+host-suffix, windows.com
+host-suffix, windows.net
+host-suffix, windowsazure.com
+host-suffix, windowsupdate.com
+host-suffix, wunderlist.com
+host-suffix, yammer.com
+host-suffix, yammerusercontent.com
+
+# > Google
+host-keyword, youtube
+host-keyword, google
+host-keyword, goog
+ip-cidr, 64.233.177.188/32
+ip-cidr, 64.233.186.188/32
+ip-cidr, 64.233.187.188/32
+ip-cidr, 64.233.188.188/32
+ip-cidr, 64.233.189.188/32
+ip-cidr, 74.125.23.188/32
+ip-cidr, 74.125.24.188/32
+ip-cidr, 74.125.28.188/32
+ip-cidr, 74.125.127.188/32
+ip-cidr, 74.125.137.188/32
+ip-cidr, 74.125.203.188/32
+ip-cidr, 74.125.204.188/32
+ip-cidr, 74.125.206.188/32
+ip-cidr, 108.177.125.188/32
+ip-cidr, 142.250.4.188/32
+ip-cidr, 142.250.10.188/32
+ip-cidr, 142.250.31.188/32
+ip-cidr, 142.250.96.188/32
+ip-cidr, 172.217.194.188/32
+ip-cidr, 172.217.218.188/32
+ip-cidr, 172.217.219.188/32
+ip-cidr, 172.253.63.188/32
+ip-cidr, 172.253.122.188/32
+ip-cidr, 173.194.175.188/32
+ip-cidr, 173.194.218.188/32
+ip-cidr, 209.85.233.188/32
+
+# > OpenAi
+host-keyword, openai
+host-suffix, auth0.com
+host-suffix, challenges.cloudflare.com
+host-suffix, client-api.arkoselabs.com
+host-suffix, featuregates.org
+host-suffix, identrust.com
+host-suffix, intercom.io
+host-suffix, intercomcdn.com
+host-suffix, oaistatic.com
+host-suffix, oaiusercontent.com
+host-suffix, openaiapi-site.azureedge.net
+host-suffix, stripe.com
+
+# > Paramount+
+user-agent, PPlus*
+host-suffix, cbsi.com
+host-suffix, cbsaavideo.com
+host-suffix, cbsivideo.com
+host-suffix, paramountplus.com
+host-suffix, pplusstatic.com
+host, cbsi.live.ott.irdeto.com
+host, cbsplaylistserver.aws.syncbak.com
+host, cbsservice.aws.syncbak.com
+host, link.theplatform.com
+
+# > PBS
+user-agent, PBS*
+host-suffix, pbs.org
+
+# > sentry
+host-keyword, sentry
+
+# > statsigapi
+host-keyword, statsigapi
