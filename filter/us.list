@@ -1,41 +1,24 @@
-# > Alphabet
-host, yt3.googleusercontent.com
-host-suffix, youtu.be
-host-suffix, yt.be
-host-suffix, ytimg.com
-host, yt3.ggpht.com
-host-keyword, youtube.com
-host-keyword, google
-host, maps.googleapis.com
-
 # > Adobe
 host-keyword, typekit
 host-keyword, adobe
 
-# > demandbase
-host-keyword, demandbase
+# > Alphabet
+host, yt3.googleusercontent.com
+host, yt3.ggpht.com
+host-suffix, youtu.be
+host-suffix, yt.be
+host-suffix, ytimg.com
+host-keyword, youtube
+host-keyword, google
 
 # > Microsoft
+host-suffix, azure.com
+host-suffix, azure.net
+host-suffix, azureedge.net
+host-suffix, azureiotcentral.com
+host-suffix, azurerms.com
+host-suffix, live.com
+host-suffix, live.net
 host-keyword, microsoft
 host-keyword, msn
 host-keyword, bing
-
-# > OpenAi
-host-keyword, openai
-host-suffix, auth0.com
-host-suffix, challenges.cloudflare.com
-host-suffix, client-api.arkoselabs.com
-host-suffix, featuregates.org
-host-suffix, identrust.com
-host-suffix, intercom.io
-host-suffix, intercomcdn.com
-host-suffix, oaistatic.com
-host-suffix, oaiusercontent.com
-host-suffix, openaiapi-site.azureedge.net
-host-suffix, stripe.com
-
-# > sentry
-host-suffix, sentry.io
-
-# > statsigapi
-host-keyword, statsigapi
