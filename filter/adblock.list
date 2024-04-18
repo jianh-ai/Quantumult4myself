@@ -1,12 +1,18 @@
+# >>>>>>>>>>>>>>> ✅ 0 ✅ <<<<<<<<<<<<<<
+host-suffix, 0ns32h.com, reject
+
 # >>>>>>>>>>>>>>> ✅ 1 ✅ <<<<<<<<<<<<<<
-1rtb.com
+host-keyword, 1rtb
 1phads.com
 1xl.co.uk
 
 # >>>>>>>>>>>>>>> ✅ 2 ✅ <<<<<<<<<<<<<<
 206ads.com
 
-# >>>>>>>>>>>>>>> ✅ A ✅ <<<<<<<<<<<<<<
+# >>>>>>>>>>>>>>> ✅ 9 ✅ <<<<<<<<<<<<<<
+host-suffix, 97bike.com, reject
+
+# >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 a-ads.com
 aarki.com
 aarki.net
@@ -83,9 +89,7 @@ ad-plus.cn
 adpushup.com
 adroll.com
 adrta.com
-adsafeprotected.com
-adsage.cn
-adsage.com
+adsafeprotected.co
 ad-score.com
 adsensor.org
 adserve.work
@@ -113,9 +117,9 @@ amoad.com
 amobee.com
 app-adforce.jp
 appcpi.net
-appier.net
 appliedq.com
 applift.com
+host-keyword, adsage
 host-suffix, adjust.com
 host-suffix, adjust.io
 host-suffix, acs86.com
@@ -132,6 +136,7 @@ host-suffix, adxmi.com
 host-suffix, adzerk.net
 host-suffix, allyes.com
 host-suffix, anquan.org
+host-suffix, appier.net
 host-suffix, appads.com
 host-suffix, applifier.com
 appsflyer.com
@@ -145,6 +150,13 @@ toots-a.akamaihd.net
 appnext-a.akamaihd.net
 host-suffix, applovin.com
 host-suffix, applvn.com
+host-suffix, d.ajlcp01.com, reject
+
+# > alibaba
+host, applog.uc.cn
+host, acs.m.taobao.com
+host, sjarvis.taobao.com
+host, adashx.m.taobao.com
 
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
 adv.bandi.so
@@ -155,6 +167,8 @@ bjvvqu.cn
 brightcom.com
 bulldogcpi.com
 bxsnews.com
+xyz.bid-algorix.cn
+host-suffix, bk5hag.com, reject
 
 # > baidu
 host, mobads.baidu.com
@@ -167,6 +181,12 @@ host, h2tcbox.baidu.com
 host, gsp0.baidu.com
 host, dlswbr.baidu.com
 host, sofire.baidu.com
+
+# > baicizhan
+host, notify.baicizhan.com
+host, events.baicizhan.com
+host, advertise.baicizhan.com
+host, bcz-mall.baicizhan.com
 
 # >>>>>>>>>>>>>>> ✅ c ✅ <<<<<<<<<<<<<<
 ad.caiyunapp.com
@@ -184,6 +204,7 @@ criteo.net
 crwdcntrl.net
 ctrmi.com
 ma-adx.ctrip.com
+host-suffix, cibntv.net, reject
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
 host-keyword, doubleclick
@@ -209,17 +230,21 @@ exosrv.com
 eyeviewads.com
 
 # >>>>>>>>>>>>>>> ✅ f ✅ <<<<<<<<<<<<<<
-host, ad.flurry.com
-host, ads.flurry.com
-host, adlog.flurry.com
 dsp.fcbox.com
 fintechpi.com
 fjctlnn.top
 fyber.com
+host-suffix, faxffjo.com, reject
+
+# > flurry
+host, ad.flurry.com
+host, ads.flurry.com
+host, adlog.flurry.com
 
 # >>>>>>>>>>>>>>> ✅ g ✅ <<<<<<<<<<<<<<
 go2cloud.org
 growingio.com
+host-suffix, gizlnr.com, reject
 
 # > google
 host-suffix, googleads-cn.com
@@ -228,14 +253,10 @@ host-suffix, googleadservices-cn.com
 host-suffix, googleadservices.com
 host-suffix, googleadsserving.cn
 host-suffix, googleanalytics.com
-host-suffix, googleapi.club
 host-suffix, googleseo.life
 host-suffix, googletagmanager.com
 host-suffix, googletagservices.com
 host-suffix, googlevads-cn.com
-host-suffix, clientmetrics-pa.googleapis.com
-host-suffix, crashlyticsreports-pa.googleapis.com
-host-suffix, imasdk.googleapis.com
 host-suffix, mail-ads.google.com
 host-suffix, google-analytics.com
 host-suffix, googlesyndication.com
@@ -248,6 +269,7 @@ ad.hzyoka.com
 haloapps.com
 hubcloud.com.cn
 hypers.com
+host-suffix, hyhkgroup.com, reject
 
 # >>>>>>>>>>>>>>> ✅ i ✅ <<<<<<<<<<<<<<
 idealads.net
@@ -279,7 +301,7 @@ lnk8.cn
 localytics.com
 appnext.hs.llnwd.net
 itad.linetv.tw
-
+host-suffix, lencr.org, reject
 
 # >>>>>>>>>>>>>>> ✅ m ✅ <<<<<<<<<<<<<<
 host-suffix, app-measurement.com
@@ -287,12 +309,12 @@ adsapi.manhuaren.com
 ggs.myzaker.com
 adui.tg.meitu.com
 advert.mafengwo.cn
+host, f.gm.mob.com, reject
 api.adnet.mob.com
 mdfull.com
 measurementapi.com
 medialytics.com
-meetrics.com
-meetricsnet
+host-keyword, meetrics
 miaozhen.com
 microadjp
 moatads.com
@@ -305,6 +327,9 @@ msads.net
 mxmcdn.net
 mxtads.com
 mydas.mobi
+host-suffix, m4pgay.com, reject
+host-suffix, mkj3.cn, reject
+host-suffix, mciqf5.com, reject
 
 # >>>>>>>>>>>>>>> ✅ n ✅ <<<<<<<<<<<<<<
 video-ads-module.ad-tech.nbcuni.com
@@ -347,6 +372,7 @@ outbrainorg
 outbrainimg.com
 owneriq.net
 ownlocal.com
+rr4---sn-ni5eln7s.gvt1.com
 
 # >>>>>>>>>>>>>>> ✅ p ✅ <<<<<<<<<<<<<<
 ad.period-calendar.com
@@ -495,6 +521,7 @@ superads.cn
 supersonic.com
 supersonicads.com
 synergy-e.com
+host-suffix, stgd9.cn, reject
 
 # >>>>>>>>>>>>>>> ✅ t ✅ <<<<<<<<<<<<<<
 ad-mediation.tuanguwen.com
@@ -557,6 +584,7 @@ upsnap.com
 uri6.com
 usekahuna.com
 utarget.ru
+zj8.uohvxrvd.xyz
 
 # >umeng
 host, utoken.umeng.com
