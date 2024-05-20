@@ -208,7 +208,6 @@ host-suffix, cibntv.net, reject
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
 host-keyword, doubleclick
-
 ads.daydaycook.com.cn
 adsdk.dmzj.com
 ad.daum.net
@@ -692,16 +691,9 @@ zxrtb.com
 saad.ms.zhangyue.net
 
 # > zijie
+host, minigame3-normal.zijieapi.com
 host, minigame5-normal.zijieapi.com
 host, ads5-normal-lq.zijieapi.com
 host, ads3-normal-lq.zijieapi.com
 host, ads5-normal.zijieapi.com
-host, polaris.zijieapi.com
-host, polaris3-normal-lq.zijieapi.com
-host, polaris5-normal-lq.zijieapi.com
-host, saveu5-normal-lq.zijieapi.com
-host, tnc3-aliec2.zijieapi.com
-host, tnc3-aliec1.zijieapi.com
-host, tnc11-bjlgy.zijieapi.com
-host, gecko5-lq.zijieapi.com
-host, gecko3-lq.zijieapi.com
+host, ads3-normal.zijieapi.com
