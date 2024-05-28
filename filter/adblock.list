@@ -668,7 +668,7 @@ xmlwizard.com
 xpanama.net
 xy7elite.com
 
-# >>>>>>>>>>>>>>> ✅ z ✅ <<<<<<<<<<<<<<
+# >>>>>>>>>>>>>>> ✅ y ✅ <<<<<<<<<<<<<<
 yandexadexchange.net
 ybrantdigital.com
 ydmob.com
@@ -711,15 +711,47 @@ host, ads5-normal-lq.zijieapi.com
 host, ads3-normal-lq.zijieapi.com
 host, ads5-normal.zijieapi.com
 host, ads3-normal.zijieapi.com
-host, polaris.zijieapi.com
 host, polaris3-normal-lq.zijieapi.com
 host, polaris5-normal-lq.zijieapi.com
-host, saveu5-normal-lq.zijieapi.com
+host, polaris.zijieapi.com
+host, gecko5-lq.zijieapi.com
+host, gecko3-lq.zijieapi.com
+host, gecko3.zijieapi.com
+host, gecko5.zijieapi.com
 host, tnc3-aliec2.zijieapi.com
 host, tnc3-aliec1.zijieapi.com
 host, tnc11-bjlgy.zijieapi.com
-host, gecko5-lq.zijieapi.com
-host, gecko3-lq.zijieapi.com
+host, tnc3-alisc1.zijieapi.com
+host, tnc3-alisc2.zijieapi.com
+host, tnc3-bjlgy.snssdk.com
+host, abtest3-misc.zijieapi.com
+host, abtest3-misc-lq.zijieapi.com
+host, mon3-misc-lq.fqnovel.com
+host, mon11-misc.fqnovel.com
+host, mon11-misc-lq.fqnovel.com
+host, timon.zijieapi.com
+host, zlink-sinfonlinea.toutiao.com
+host, log3-applog-lq.fqnovel.com
+host, rtlog3-applog-lq.fqnovel.com
+host, log0-applog-lq.fqnovel.com
+host, rtlog5-applog-lq.fqnovel.com
+host, webcast-open.douyin.com
+host, webcast5-open-lq.douyin.com
+host, webcast5-open-lf.douyin.com
+host, p3-webcast-sign.douyinpic.com
+host, p6-webcast-sign.douyinpic.com
+host, p3-ad-sign.byteimg.com
+host, p6-ad-sign.byteimg.com
+host, p9-ad-sign.byteimg.com
+host, dig.bdurl.net
+host, dig.zjurl.cn
+host, zlink.ugsdk.cn
+host, i.snssdk.com
+host, is.snssdk.com
+host, is-lq.snssdk.com
+host, i-lq.snssdk.com
+host-suffix, fqnovelvod.com
+host-suffix, ecombdimg.com
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
 0ns32h.com
