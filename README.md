@@ -4,7 +4,7 @@ rules'document for myself
 ---
 thank for
 
-@RuCu6 `githubusercontent.com/RuCu6/QuanX/`
+@RuCu6 `https://github.com/RuCu6/QuanX/`
 
 @ddgksf2013 `https://github.com/ddgksf2013/ddgksf2013`
 
