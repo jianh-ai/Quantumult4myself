@@ -8,6 +8,6 @@ thank for
 
 @ddgksf2013 `https://github.com/ddgksf2013/ddgksf2013`
 
-@fmz200 `https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/rewrite/chongxie.txt`
+@fmz200 `https://github.com/fmz200/wool_scripts/blob/main/QuantumultX/rewrite/chongxie.txt`
 
 @orz-3 `https://github.com/Orz-3/QuantumultX`
