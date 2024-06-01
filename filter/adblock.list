@@ -105,7 +105,7 @@ app-adforce.jp
 appcpi.net
 appliedq.com
 applift.com
-host-keyword, adsage
+d.ajlcp01.com
 host-suffix, adjust.com
 host-suffix, adjust.io
 host-suffix, acs86.com
@@ -124,26 +124,26 @@ host-suffix, allyes.com
 host-suffix, anquan.org
 host-suffix, appier.net
 host-suffix, appads.com
+host-suffix, app-measurement.com
 host-suffix, applifier.com
-appsflyer.com
-apsalar.com
-apxadtracking.net
-aralego.com
-atomhike.com
-axonix.com
-host-keyword, ad6media
-toots-a.akamaihd.net
-appnext-a.akamaihd.net
+host-suffix, appsflyer.com
+host-suffix, appsflyersdk.com
+host-suffix, apsalar.com
+host-suffix, apxadtracking.net
+host-suffix, aralego.com
+host-suffix, atomhike.com
+host-suffix, axonix.com
 host-suffix, applovin.com
 host-suffix, applvn.com
-host-suffix, d.ajlcp01.com
+host-keyword, ad6media
+host-keyword, adsage
 
 # > alibaba
-host, applog.uc.cn
-host, acs.m.taobao.com
-host, sjarvis.taobao.com
-host, adashx.m.taobao.com
-host, abtest.alibaba.com
+applog.uc.cn
+acs.m.taobao.com
+sjarvis.taobao.com
+adashx.m.taobao.com
+abtest.alibaba.com
 
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
 adv.bandi.so
@@ -158,29 +158,32 @@ xyz.bid-algorix.cn
 host-suffix, bk5hag.com
 
 # > baidu
-host, mobads.baidu.com
-host, mobads-logs.baidu.com
-host, miao.baidu.com
-host, xlab.baidu.com
-host, sptest.baidu.com
+mobads.baidu.com
+mobads-logs.baidu.com
+miao.baidu.com
+xlab.baidu.com
+sptest.baidu.com
 host-suffix, pos.baidu.com
-host, h2tcbox.baidu.com
-host, gsp0.baidu.com
-host, dlswbr.baidu.com
-host, sofire.baidu.com
-host, afd.baidu.com
-host, afdconf.baidu.com
-host, lc.map.baidu.com
+h2tcbox.baidu.com
+gsp0.baidu.com
+dlswbr.baidu.com
+sofire.baidu.com
+afd.baidu.com
+afdconf.baidu.com
+lc.map.baidu.com
 
 # > baicizhan
-host, notify.baicizhan.com
-host, events.baicizhan.com
-host, advertise.baicizhan.com
-host, bcz-mall.baicizhan.com
-host, advertise.bczeducation.cn
-host, ad.bczcdn.com
-host, notify.bczeducation.cn
-host, events.bczeducation.cn
+notify.baicizhan.com
+events.baicizhan.com
+advertise.baicizhan.com
+bcz-mall.baicizhan.com
+advertise.bczeducation.cn
+ad.bczcdn.com
+notify.bczeducation.cn
+events.bczeducation.cn
+
+# > bilibili
+mall.bilibili.com
 
 # >>>>>>>>>>>>>>> ✅ c ✅ <<<<<<<<<<<<<<
 ad.caiyunapp.com
@@ -201,7 +204,7 @@ cfugrnc.icu
 host-suffix, cibntv.net
 
 # > ctrip
-host, ma-adx.ctrip.com
+ma-adx.ctrip.com
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
 host-keyword, doubleclick
@@ -234,9 +237,9 @@ fyber.com
 host-suffix, faxffjo.com
 
 # > flurry
-host, ad.flurry.com
-host, ads.flurry.com
-host, adlog.flurry.com
+ad.flurry.com
+ads.flurry.com
+adlog.flurry.com
 
 # >>>>>>>>>>>>>>> ✅ g ✅ <<<<<<<<<<<<<<
 go2cloud.org
@@ -246,8 +249,10 @@ host-suffix, gizlnr.com
 # > google
 host-suffix, googleads-cn.com
 host-suffix, googleads.github.io
-host-suffix, googleadservices-cn.com
 host-suffix, googleadservices.com
+host-suffix, googleadservices-cn.com
+host-suffix, googlesyndication.com
+host-suffix, googlesyndication-cn.com
 host-suffix, googleadsserving.cn
 host-suffix, googleanalytics.com
 host-suffix, googleseo.life
@@ -256,7 +261,6 @@ host-suffix, googletagservices.com
 host-suffix, googlevads-cn.com
 host-suffix, mail-ads.google.com
 host-suffix, google-analytics.com
-host-suffix, googlesyndication.com
 host-suffix, adservice.google.com
 host-suffix, analytics.google.com
 
@@ -288,6 +292,9 @@ juicyads.com
 
 # >>>>>>>>>>>>>>> ✅ k ✅ <<<<<<<<<<<<<<
 api-ad.kajicam.com
+open.e.kuaishou.com
+open.kuaishou.com
+host-suffix, kuaishouzt.com
 
 # >>>>>>>>>>>>>>> ✅ l ✅ <<<<<<<<<<<<<<
 leadboltmobile.net
@@ -299,34 +306,34 @@ localytics.com
 appnext.hs.llnwd.net
 itad.linetv.tw
 host-suffix, lencr.org
+host-suffix, ads.linkedin.com
 
 # >>>>>>>>>>>>>>> ✅ m ✅ <<<<<<<<<<<<<<
-host-suffix, app-measurement.com
 adsapi.manhuaren.com
 ggs.myzaker.com
 adui.tg.meitu.com
 advert.mafengwo.cn
-host, f.gm.mob.com
+f.gm.mob.com
 api.adnet.mob.com
-mdfull.com
-measurementapi.com
-medialytics.com
-host-keyword, meetrics
-miaozhen.com
-microadjp
-moatads.com
-mobclix.com
-mookie1.com
-mopub.com
-mplxtms.com
-mpnrs.com
-msads.net
-mxmcdn.net
-mxtads.com
-mydas.mobi
+host-suffix, mdfull.com
+host-suffix, measurementapi.com
+host-suffix, medialytics.com
+host-suffix, miaozhen.com
+host-suffix, microad.jp
+host-suffix, moatads.com
+host-suffix, mobclix.com
+host-suffix, mookie1.com
+host-suffix, mopub.com
+host-suffix, mplxtms.com
+host-suffix, mpnrs.com
+host-suffix, msads.net
+host-suffix, mxmcdn.net
+host-suffix, mxtads.com
+host-suffix, mydas.mobi
 host-suffix, m4pgay.com
 host-suffix, mkj3.cn
 host-suffix, mciqf5.com
+host-keyword, meetrics
 
 # >>>>>>>>>>>>>>> ✅ n ✅ <<<<<<<<<<<<<<
 video-ads-module.ad-tech.nbcuni.com
@@ -369,7 +376,6 @@ outbrainorg
 outbrainimg.com
 owneriq.net
 ownlocal.com
-rr4---sn-ni5eln7s.gvt1.com
 
 # >>>>>>>>>>>>>>> ✅ p ✅ <<<<<<<<<<<<<<
 ad.period-calendar.com
@@ -419,7 +425,7 @@ quantserve.com
 quantumgraph.com
 
 # > qq
-host, gdt.qq.com
+gdt.qq.com
 
 # >>>>>>>>>>>>>>> ✅ r ✅ <<<<<<<<<<<<<<
 ads.reembed.com
@@ -518,8 +524,8 @@ superads.cn
 supersonic.com
 supersonicads.com
 synergy-e.com
-host-suffix, stgd9.cn
-host, tj2.sejia.icu
+stgd9.cn
+tj2.sejia.icu
 
 # >>>>>>>>>>>>>>> ✅ t ✅ <<<<<<<<<<<<<<
 ad-mediation.tuanguwen.com
@@ -535,7 +541,6 @@ tanv.com
 tanx.com
 tapdaq.com
 tapjoy.com
-tapjoyads.com
 tappx.com
 tapresearch.com
 taptapnetworks.com
@@ -566,6 +571,7 @@ tuitiger.com
 turn.com
 tutoads.tv
 tynt.com
+host-suffix, tapjoyads.com
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
 u-ad.info
@@ -584,13 +590,14 @@ usekahuna.com
 utarget.ru
 uohvxrvd.xyz
 u3.ucweb.com
+unityads.unity3d.com
 
 # >umeng
-host, utoken.umeng.com
-host, ucc.umeng.com
-host, errlog.umeng.com
-host, ulogs.umeng.com
-host, alogs.umeng.com
+utoken.umeng.com
+ucc.umeng.com
+errlog.umeng.com
+ulogs.umeng.com
+alogs.umeng.com
 
 # >>>>>>>>>>>>>>> ✅ v ✅ <<<<<<<<<<<<<<
 vadsnet.vn
@@ -616,7 +623,7 @@ vrtcal.com
 vrtzads.com
 vrvm.com
 vserv.mobi
-vungle.com
+host-suffix, vungle.com
 
 # >>>>>>>>>>>>>>> ✅ w ✅ <<<<<<<<<<<<<<
 ad.wappalyzer.com
@@ -637,26 +644,26 @@ wudejia.com
 host-suffix, biz.weibo.com
 host-suffix, game.weibo
 host-suffix, alitui.weibo.com
-host, sdkapp.uve.weibo.com
-host, wbapp.uve.weibo.com
-host, adimg.uve.weibo.com
-host, dp.im.weibo.cn
-host, gw5.push.mcp.weibo.cn
-host, gw6.push.mcp.weibo.cn
-host, tui.weibo.com
+sdkapp.uve.weibo.com
+wbapp.uve.weibo.com
+adimg.uve.weibo.com
+dp.im.weibo.cn
+gw5.push.mcp.weibo.cn
+gw6.push.mcp.weibo.cn
+tui.weibo.com
 
 # > netease
-host, iadmat.nosdn.127.net
-host, iadmatapk.nosdn.127.net
-host, iadmusicmat.music.126.net
-host, iadmusicmatvideo.music.126.net
-host, ipv4.music.163.com
-host, ipv6.music.163.com
+iadmat.nosdn.127.net
+iadmatapk.nosdn.127.net
+iadmusicmat.music.126.net
+iadmusicmatvideo.music.126.net
+ipv4.music.163.com
+ipv6.music.163.com
 host-suffix, 163jiasu.com
 
 # wechat
-host, wxsnsdy.wxs.qq.com
-host, wxsnsdythumb.wxs.qq.com
+wxsnsdy.wxs.qq.com
+wxsnsdythumb.wxs.qq.com
 
 
 # >>>>>>>>>>>>>>> ✅ x ✅ <<<<<<<<<<<<<<
@@ -690,8 +697,7 @@ yumimobi.com
 yunqingugm.com
 
 # >>>>>>>>>>>>>>> ✅ z ✅ <<<<<<<<<<<<<<
-host-suffix, pglstatp-toutiao.com
-host, zhihu-analytics.zhihu.com
+zhihu-analytics.zhihu.com
 zapr.in
 zemanta.com
 zestads.com
@@ -705,53 +711,60 @@ zxrtb.com
 saad.ms.zhangyue.net
 
 # > zijie
-host, minigame5-normal.zijieapi.com
-host, minigame3-normal.zijieapi.com
-host, ads5-normal-lq.zijieapi.com
-host, ads3-normal-lq.zijieapi.com
-host, ads5-normal.zijieapi.com
-host, ads3-normal.zijieapi.com
-host, polaris3-normal-lq.zijieapi.com
-host, polaris5-normal-lq.zijieapi.com
-host, polaris.zijieapi.com
-host, gecko5-lq.zijieapi.com
-host, gecko3-lq.zijieapi.com
-host, gecko3.zijieapi.com
-host, gecko5.zijieapi.com
-host, tnc3-aliec2.zijieapi.com
-host, tnc3-aliec1.zijieapi.com
-host, tnc11-bjlgy.zijieapi.com
-host, tnc3-alisc1.zijieapi.com
-host, tnc3-alisc2.zijieapi.com
-host, tnc3-bjlgy.snssdk.com
-host, abtest3-misc.zijieapi.com
-host, abtest3-misc-lq.zijieapi.com
-host, mon3-misc-lq.fqnovel.com
-host, mon11-misc.fqnovel.com
-host, mon11-misc-lq.fqnovel.com
-host, timon.zijieapi.com
-host, zlink-sinfonlinea.toutiao.com
-host, log3-applog-lq.fqnovel.com
-host, rtlog3-applog-lq.fqnovel.com
-host, log0-applog-lq.fqnovel.com
-host, rtlog5-applog-lq.fqnovel.com
-host, webcast-open.douyin.com
-host, webcast5-open-lq.douyin.com
-host, webcast5-open-lf.douyin.com
-host, p3-webcast-sign.douyinpic.com
-host, p6-webcast-sign.douyinpic.com
-host, p3-ad-sign.byteimg.com
-host, p6-ad-sign.byteimg.com
-host, p9-ad-sign.byteimg.com
-host, dig.bdurl.net
-host, dig.zjurl.cn
-host, zlink.ugsdk.cn
-host, i.snssdk.com
-host, is.snssdk.com
-host, is-lq.snssdk.com
-host, i-lq.snssdk.com
+minigame5-normal.zijieapi.com
+minigame3-normal.zijieapi.com
+ads5-normal-lq.zijieapi.com
+ads3-normal-lq.zijieapi.com
+ads5-normal.zijieapi.com
+ads3-normal.zijieapi.com
+polaris3-normal-lq.zijieapi.com
+polaris5-normal-lq.zijieapi.com
+polaris.zijieapi.com
+gecko5-lq.zijieapi.com
+gecko3-lq.zijieapi.com
+gecko3.zijieapi.com
+gecko5.zijieapi.com
+tnc3-aliec2.zijieapi.com
+tnc3-aliec1.zijieapi.com
+tnc11-bjlgy.zijieapi.com
+tnc3-alisc1.zijieapi.com
+tnc3-alisc2.zijieapi.com
+tnc3-bjlgy.snssdk.com
+abtest3-misc.zijieapi.com
+abtest3-misc-lq.zijieapi.com
+mon3-misc-lq.fqnovel.com
+mon11-misc.fqnovel.com
+mon11-misc-lq.fqnovel.com
+timon.zijieapi.com
+zlink-sinfonlinea.toutiao.com
+log3-applog-lq.fqnovel.com
+rtlog3-applog-lq.fqnovel.com
+log0-applog-lq.fqnovel.com
+rtlog5-applog-lq.fqnovel.com
+webcast-open.douyin.com
+webcast5-open-lq.douyin.com
+webcast5-open-lf.douyin.com
+p3-webcast-sign.douyinpic.com
+p6-webcast-sign.douyinpic.com
+p3-ad-sign.byteimg.com
+p6-ad-sign.byteimg.com
+p9-ad-sign.byteimg.com
+dig.bdurl.net
+dig.zjurl.cn
+zlink.ugsdk.cn
+i.snssdk.com
+is.snssdk.com
+is-lq.snssdk.com
+i-lq.snssdk.com
+pangolin.snssdk.com
+video-cn.snssdk.com
+ad.zijieapi.com
 host-suffix, fqnovelvod.com
 host-suffix, ecombdimg.com
+host-keyword, -ad-sign.byteimg.com
+host-keyword, ads.g.doubleclick
+host-keyword, asiad.byteactivity
+host-keyword, pglstatp-toutiao.com
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
 0ns32h.com
