@@ -164,8 +164,21 @@ web.m.taobao.com
 slsrole.alicdn.com
 
 # > apple
+
+advertising.apple.com
 api-adservices.apple.com
-iadsdk.apple.com
+apple.comscoreresearch.com
+banners.itunes.apple.com
+iad.apple.com
+iadcontent.apple.com
+iadctest.qwapi.com
+iadmoo.apple.com
+iadworkbench.apple.com
+launch.apple.com
+qwapi.apple.com
+host-suffix, advp.apple.com
+host-suffix, iad-apple.com
+host-suffix, iadsdk.apple.com
 
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
 adv.bandi.so
