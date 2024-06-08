@@ -1,6 +1,5 @@
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 s.adxvip.com
-log.aldwx.com
 dd.anhrjingcy.com
 activity-ag.awemeughun.com
 ad-display.diwodiwo.xyz
@@ -148,23 +147,26 @@ host-keyword, adsage
 host-keyword, afcdn.net
 
 # > alibaba
-applog.uc.cn
-acs.m.taobao.com
 sjarvis.taobao.com
-adashx.m.taobao.com
-abtest.alibaba.com
-ilce.alicdn.com
-abtest.alibaba.com
-loggw-ex.alipay.com
 h-adashx.ut.taobao.com
-adashxgc.ut.taobao.com
+adash-c.m.taobao.com
+adash-c.ut.taobao.com
+adash.m.taobao.com
+adashbc.m.taobao.com
 adashbc.ut.taobao.com
-acs.m.taobao.com
-web.m.taobao.com
-slsrole.alicdn.com
+adashx.m.taobao.com
+adashx.ut.amap.com
+adashx.ut.ele.me
+adashx.ut.taobao.com
+adashx.ut.youku.com
+adashx4ae.ut.taobao.com
+adashx4sg.ut.taobao.com
+adashx4yt.m.taobao.com
+adashxgc.ut.taobao.com
+ai.m.taobao.com
+amdcopen.m.taobao.com
 
 # > apple
-
 advertising.apple.com
 api-adservices.apple.com
 apple.comscoreresearch.com
@@ -238,10 +240,8 @@ events.bczeducation.cn
 cm.bilibili.com
 mall.bilibili.com
 data.bilibili.com
+dataflow.biliapi.com
 broadcast.chat.bilibili.com
-cn-jsyz-ccc-live-tracker-02.chat.bilibili.com
-cn-hnld-ccc-live-tracker-03.chat.bilibili.com
-cn-hnld-ccc-live-tracker-01.chat.bilibili.com
 
 # >>>>>>>>>>>>>>> ✅ c ✅ <<<<<<<<<<<<<<
 ad.caiyunapp.com
@@ -771,22 +771,35 @@ host-suffix, wsod.com
 host-suffix, wudejia.com
 
 # > weibo
+ad.weibo.com
 biz.weibo.com
 biz.weibo.com.cn
+wax.weibo.com.cn
 alitui.weibo.com
+tui.weibo.com
+zymo.mps.weibo.com
 sdkapp.uve.weibo.com
 wbapp.uve.weibo.com
 adimg.uve.weibo.com
+wbapp.uve.weibo.com
+click.uve.weibo.com
+fastimage.uve.weibo.com
 dp.im.weibo.cn
+dns.weibo.cn
 gw5.push.mcp.weibo.cn
 gw6.push.mcp.weibo.cn
-tui.weibo.com
 promote.biz.weibo.cn
-click.uve.weibo.com
-zymo.mps.weibo.com
-wax.weibo.com.cn
-fastimage.uve.weibo.com
 host-keyword, game.weibo
+
+
+ad.us.sinaimg.cn
+adblock.sina.cn
+adimages.sina.com.hk
+adimg.mobile.sina.cn
+ads.sina.com
+appgift.sinaapp.com
+host-suffix,cre-dp.sina.cn
+host-suffix,cre.dp.sina.cn
 
 # > netease
 iadmat.nosdn.127.net
