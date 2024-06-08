@@ -167,22 +167,6 @@ slsrole.alicdn.com
 api-adservices.apple.com
 iadsdk.apple.com
 
-hanime1.me, 黑白名单
-api.twitter.com, 香港节点
-ladsp.com, 日本节点
--cybertrust.ne.jp, 日本节点
-akamaized.net, 日本节点
--xeknow.com, 黑白名单
--xiaoeknow.com, 黑白名单
-twitter.com, 黑白名单
--host-keyword, gstatic, 美国节点
-2dfan.com, 黑白名单
-www.recaptcha.net, 黑白名单
-oauth.secure.pixiv.net, 黑白名单
-i.pximg.net, 黑白名单
--cygames.jp, 日本节点
-sekai.colorfulpalette.org, 日本节点
-
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
 adv.bandi.so
 b2pk.com
