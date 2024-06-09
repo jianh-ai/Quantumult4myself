@@ -215,7 +215,6 @@ tianshu.gtimg.cn
 sola.gtimg.cn
 gcaqso.gtimg.cn
 dss0.baidu.com
-adsmind.gdtimg.com
 nmtest.bdstatic.com
 httpdns.baidu.com
 httpdns.baidubce.com
@@ -285,6 +284,10 @@ host-suffix, doubleverify.com
 host-suffix, dtscout.com
 host-keyword, doubleclick
 
+# > didi
+ip-cidr, 123.207.209.39/32
+ip-cidr, 123.207.209.60/32
+
 # >>>>>>>>>>>>>>> ✅ e ✅ <<<<<<<<<<<<<<
 adv.ettoday.net
 px.effirst.com
@@ -312,7 +315,6 @@ adlog.flurry.com
 # >>>>>>>>>>>>>>> ✅ g ✅ <<<<<<<<<<<<<<
 gdfp.gifshow.com
 uu.gscsahv025.com
-qzs.gdtimg.com
 host-suffix, go2cloud.org
 host-suffix, growingio.com
 host-suffix, gizlnr.com
@@ -344,6 +346,9 @@ host-suffix, haloapps.com
 host-suffix, hubcloud.com.cn
 host-suffix, hypers.com
 host-suffix, hyhkgroup.com
+
+# > huya
+v1d.szbdyd.com
 
 # >>>>>>>>>>>>>>> ✅ i ✅ <<<<<<<<<<<<<<
 bzhr.inworket.com
@@ -508,7 +513,6 @@ pubnative.net
 pushsar.com
 pxlad.io
 cf-ads.pinger.com
-sf3-ttcdn-tos.pstatp.com
 primaryradio.com
 
 # > pinganjinguanjia
@@ -527,11 +531,15 @@ quantumgraph.com
 qemyapi.qiekj.com
 
 # > qq
-gdt.qq.com
+us.l.qq.com
+pgdt.ugdtimg.com
+qzs.gdtimg.com
+adsmind.gdtimg.com
 ad.tencentmusic.com
 adcdn6.tencentmusic.com
 adstats.tencentmusic.com
 tmead.y.qq.com
+tmeadkg.y.qq.com
 mazu.m.qq.com
 sdk.e.qq.com
 sq.bls.mdt.qq.com
@@ -541,6 +549,7 @@ findertt.video.qq.com
 finderdsp.video.qq.com
 h.trace.qq.com
 ios.bugly.qq.com
+host-suffix, gdt.qq.com
 
 # >>>>>>>>>>>>>>> ✅ r ✅ <<<<<<<<<<<<<<
 ads.reembed.com
@@ -717,7 +726,6 @@ utarget.ru
 uohvxrvd.xyz
 u3.ucweb.com
 unityads.unity3d.com
-pgdt.ugdtimg.com
 
 # >umeng
 utoken.umeng.com
@@ -865,6 +873,7 @@ zxrtb.com
 saad.ms.zhangyue.net
 
 # > zijie
+toblog.ctobsnssdk.com
 minigame5-normal.zijieapi.com
 minigame3-normal.zijieapi.com
 ads5-normal-lq.zijieapi.com
@@ -912,14 +921,13 @@ is.snssdk.com
 is-lq.snssdk.com
 i-lq.snssdk.com
 pangolin.snssdk.com
-video-cn.snssdk.com
 ad.zijieapi.com
-tr.byteurl.cn
 gromore.pangolin-sdk-toutiao.com
 log-api.pangolin-sdk-toutiao-b.com
 log-api.pangolin-sdk-toutiao.com
+sf3-ttcdn-tos.pstatp.com
 host-suffix, fqnovelvod.com
-host-keyword, -ad-sign.byteimg.com
+host-keyword, ad-sign.byteimg.com
 host-keyword, ads.g.doubleclick
 host-keyword, asiad.byteactivity
 host-keyword, pglstatp-toutiao.com
