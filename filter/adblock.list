@@ -209,11 +209,6 @@ sofire.baidu.com
 afd.baidu.com
 afdconf.baidu.com
 lc.map.baidu.com
-pgdt.gtimg.com
-offlinev2.gtimg.cn
-tianshu.gtimg.cn
-sola.gtimg.cn
-gcaqso.gtimg.cn
 dss0.baidu.com
 nmtest.bdstatic.com
 httpdns.baidu.com
@@ -238,8 +233,6 @@ events.bczeducation.cn
 # > bilibili
 cm.bilibili.com
 mall.bilibili.com
-data.bilibili.com
-dataflow.biliapi.com
 broadcast.chat.bilibili.com
 
 # >>>>>>>>>>>>>>> ✅ c ✅ <<<<<<<<<<<<<<
@@ -530,27 +523,6 @@ quantserve.com
 quantumgraph.com
 qemyapi.qiekj.com
 
-# > qq
-us.l.qq.com
-pgdt.ugdtimg.com
-qzs.gdtimg.com
-adsmind.gdtimg.com
-ad.tencentmusic.com
-adcdn6.tencentmusic.com
-adstats.tencentmusic.com
-tmead.y.qq.com
-tmeadkg.y.qq.com
-mazu.m.qq.com
-sdk.e.qq.com
-sq.bls.mdt.qq.com
-vv.video.qq.com
-finderdma.video.qq.com
-findertt.video.qq.com
-finderdsp.video.qq.com
-h.trace.qq.com
-ios.bugly.qq.com
-host-suffix, gdt.qq.com
-
 # >>>>>>>>>>>>>>> ✅ r ✅ <<<<<<<<<<<<<<
 ads.reembed.com
 ads-cloud.rovio.com
@@ -593,8 +565,6 @@ mads.suning.com
 ads.superawesome.tv
 sunnyworks.co.kr
 superad2.com.sg
-
-
 host-suffix, salmonads.com
 host-suffix, samba.tv
 host-suffix, samsungads.com
@@ -654,7 +624,6 @@ host-suffix, superads.cn
 host-suffix, supersonic.com
 host-suffix, supersonicads.com
 host-suffix, synergy-e.com
-host-suffix, stgd9.
 host-keyword, sigmob
 
 # >>>>>>>>>>>>>>> ✅ t ✅ <<<<<<<<<<<<<<
@@ -706,7 +675,40 @@ host-suffix, turn.com
 host-suffix, tutoads.tv
 host-suffix, tynt.com
 
-
+# > tencent
+# gtimg
+pgdt.gtimg.com
+offlinev2.gtimg.cn
+tianshu.gtimg.cn
+sola.gtimg.cn
+gcaqso.gtimg.cn
+# qq
+adstats.tencentmusic.com
+ad.tencentmusic.com
+adcdn.tencentmusic.com
+adcdn6.tencentmusic.com
+adexpo.tencentmusic.com
+adclick.tencentmusic.com
+otheve.beacon.qq.com
+monitor.music.qq.com
+stat.y.qq.com
+tmead.y.qq.com
+tmeadkg.y.qq.com
+oth.str.mdt.qq.com
+sq.bls.mdt.qq.com
+h.trace.qq.com
+sdk.e.qq.com
+p.l.qq.com
+us.l.qq.com
+tangram.e.qq.com
+tmeadbak.y.qq.com
+pgdt.ugdtimg.com
+qzs.gdtimg.com
+adsmind.gdtimg.com
+host-suffix, imtmp.net
+# wechat
+wxsnsdy.wxs.qq.com
+wxsnsdythumb.wxs.qq.com
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
 u-ad.info
@@ -818,10 +820,6 @@ ipv4.music.163.com
 ipv6.music.163.com
 163jiasu.com
 
-# wechat
-wxsnsdy.wxs.qq.com
-wxsnsdythumb.wxs.qq.com
-
 # >>>>>>>>>>>>>>> ✅ x ✅ <<<<<<<<<<<<<<
 ad.xy2013.cn
 api.ad.xiaomi.com
@@ -857,6 +855,9 @@ host-suffix, youmi.net
 host-suffix, yumimobi.com
 host-suffix, yunqingugm.com
 host-keyword, yximgs
+
+# youtube
+host-suffix, googlevideo.com
 
 # >>>>>>>>>>>>>>> ✅ z ✅ <<<<<<<<<<<<<<
 zhihu-analytics.zhihu.com
