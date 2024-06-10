@@ -678,34 +678,42 @@ host-suffix, tynt.com
 # > tencent
 # gtimg
 pgdt.gtimg.com
+pgdt.gtimg.cn
+pgdt.ugdtimg.com
 offlinev2.gtimg.cn
 tianshu.gtimg.cn
 sola.gtimg.cn
 gcaqso.gtimg.cn
+adsmind.gdtimg.com
+qzs.gdtimg.com
 # qq
+tpns.qq.com
+otheve.beacon.qq.com
+stat.y.qq.com
+tmead.y.qq.com
+tmeadkg.y.qq.com
+oth.str.mdt.qq.com
+sq.bls.mdt.qq.com
+sdk.e.qq.com
+ios.video.mpush.qq.com
+info4.video.qq.com
+info6.video.qq.com
+vv6.video.qq.com
+tangram.e.qq.com
+tmeadbak.y.qq.com
+host-suffix, gdt.qq.com
+host-suffix, l.qq.com
+host-suffix, imtmp.net
+host-keyword, trace.qq.com
+host-keyword, trace.video.qq.com
+# qqmusic
+monitor.music.qq.com
 adstats.tencentmusic.com
 ad.tencentmusic.com
 adcdn.tencentmusic.com
 adcdn6.tencentmusic.com
 adexpo.tencentmusic.com
 adclick.tencentmusic.com
-otheve.beacon.qq.com
-monitor.music.qq.com
-stat.y.qq.com
-tmead.y.qq.com
-tmeadkg.y.qq.com
-oth.str.mdt.qq.com
-sq.bls.mdt.qq.com
-h.trace.qq.com
-sdk.e.qq.com
-p.l.qq.com
-us.l.qq.com
-tangram.e.qq.com
-tmeadbak.y.qq.com
-pgdt.ugdtimg.com
-qzs.gdtimg.com
-adsmind.gdtimg.com
-host-suffix, imtmp.net
 # wechat
 wxsnsdy.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
