@@ -217,8 +217,6 @@ als.baidu.com
 mv.bdstatic.com
 afdconf.baidu.com
 cdn.hiphotos.baidu.com
-host-suffix, ecombdapi.com
-host-suffix, ecombdimg.com
 
 # > baicizhan
 notify.baicizhan.com
