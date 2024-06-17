@@ -6,7 +6,7 @@ const isQuanX = typeof $task !== "undefined";
 
 if (url.includes("/amdc/mobileDispatch")) {
   if (
-    ua.includes("AMapiPhone") // 高德地图
+       ua.includes("AMapiPhone") // 高德地图
     || ua.includes("Alibaba") // 阿里巴巴
     || ua.includes("Taobao4iPhone") // 淘宝
     || ua.includes("TmallCampus") //天猫校园
