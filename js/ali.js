@@ -21,6 +21,6 @@ if (url.includes("/amdc/mobileDispatch")) {
   } else {
     $done({});
   }
-}else {
+} else {
   $done({});
 }
