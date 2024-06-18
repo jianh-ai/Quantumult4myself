@@ -148,23 +148,24 @@ host-keyword, afcdn.net
 
 # > alibaba
 sjarvis.taobao.com
+ai.m.taobao.com
+amdcopen.m.taobao.com
 h-adashx.ut.taobao.com
+h-adashx4bc.ut.taobao.com
 adash-c.m.taobao.com
 adash-c.ut.taobao.com
 adash.m.taobao.com
 adashbc.m.taobao.com
-adashbc.ut.taobao.com
 adashx.m.taobao.com
 adashx.ut.amap.com
 adashx.ut.ele.me
 adashx.ut.taobao.com
 adashx.ut.youku.com
+adashbc.ut.taobao.com
 adashx4ae.ut.taobao.com
 adashx4sg.ut.taobao.com
 adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
-ai.m.taobao.com
-amdcopen.m.taobao.com
 
 # > apple
 advertising.apple.com
@@ -194,6 +195,8 @@ bxsnews.com
 xyz.bid-algorix.cn
 bk5hag.com
 qc.bsccdn.net
+sdk.beizi.biz
+api-htp.beizi.biz
 
 # > baidu
 mobads.baidu.com
@@ -343,6 +346,7 @@ v1d.szbdyd.com
 bzhr.inworket.com
 kwd.inkuai.com
 fms.ipinyou.com
+host-suffix, icanhazip.com
 host-suffix, idealads.net
 host-suffix, inner-active.mobi
 host-suffix, innovid.com
@@ -829,6 +833,7 @@ ipv6.music.163.com
 ad.xy2013.cn
 api.ad.xiaomi.com
 cd.xdplt.com
+mv-ps.xdplt.com
 api-shoulei-ssl.xunlei.com
 host-suffix, xapads.com
 host-suffix, xdrig.com
