@@ -216,6 +216,7 @@ httpdns.baidubce.com
 als.baidu.com
 mv.bdstatic.com
 afdconf.baidu.com
+fc-video.cdn.bcebos.com
 
 # > baicizhan
 notify.baicizhan.com
@@ -502,6 +503,9 @@ pushsar.com
 pxlad.io
 cf-ads.pinger.com
 primaryradio.com
+
+# pinduoduo
+titan.pinduoduo.com
 
 # > pinganjinguanjia
 mina-core.pingan.com
