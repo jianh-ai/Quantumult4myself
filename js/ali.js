@@ -12,7 +12,6 @@ if (url.includes("/amdc/mobileDispatch")) {
     ua.includes("TmallCampus") || //天猫校园
     ua.includes("Cainiao4iPhone") || // 菜鸟
     ua.includes("%E9%A3%9E%E7%8C%AA%E6%97%85%E8%A1%8C") // 飞猪旅行
-    ua.includes("%E9%97%B2%E9%B1%BC") // 闲鱼
   ) {
     if (isQuanX) {
       $done({ status: "HTTP/1.1 404 Not Found" });
