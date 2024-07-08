@@ -147,16 +147,20 @@ host-keyword, adsage
 host-keyword, afcdn.net
 
 # > alibaba
+hudong.alicdn.com
+ems.youku.com
+ossgw.alicdn.com
 sjarvis.taobao.com
 ai.m.taobao.com
 amdcopen.m.taobao.com
-h-adashx.ut.taobao.com
-h-adashx4bc.ut.taobao.com
 adash-c.m.taobao.com
-adash-c.ut.taobao.com
 adash.m.taobao.com
 adashbc.m.taobao.com
 adashx.m.taobao.com
+adashx4yt.m.taobao.com
+h-adashx.ut.taobao.com
+h-adashx4bc.ut.taobao.com
+adash-c.ut.taobao.com
 adashx.ut.amap.com
 adashx.ut.ele.me
 adashx.ut.taobao.com
@@ -164,8 +168,8 @@ adashx.ut.youku.com
 adashbc.ut.taobao.com
 adashx4ae.ut.taobao.com
 adashx4sg.ut.taobao.com
-adashx4yt.m.taobao.com
 adashxgc.ut.taobao.com
+host-keyword, ut.taobao.com
 
 # > apple
 advertising.apple.com
@@ -203,23 +207,24 @@ mobads.baidu.com
 mobads-logs.baidu.com
 miao.baidu.com
 xlab.baidu.com
-sptest.baidu.com
 pos.baidu.com
+wn.pos.baidu.com
 h2tcbox.baidu.com
 gsp0.baidu.com
 dlswbr.baidu.com
-sofire.baidu.com
 afd.baidu.com
 afdconf.baidu.com
-lc.map.baidu.com
 dss0.baidu.com
 nmtest.bdstatic.com
 httpdns.baidu.com
 httpdns.baidubce.com
 als.baidu.com
-mv.bdstatic.com
+feed-image.baidu.com
 afdconf.baidu.com
-fc-video.cdn.bcebos.com
+bgg.baidu.com
+union.baidu.cn
+union.baidu.com
+ip-cidr, 180.76.76.200/32
 
 # > baicizhan
 notify.baicizhan.com
@@ -369,7 +374,7 @@ adx.jlgxmob.com
 host-suffix, jads.co
 host-suffix, juicyads.com
 
-> # jd
+# > jd
 im-x.jd.com
 
 # >>>>>>>>>>>>>>> ✅ k ✅ <<<<<<<<<<<<<<
@@ -420,8 +425,19 @@ mydas.mobi
 m4pgay.com
 mkj3.cn
 mciqf5.com
-ad.maoyan.com
+
 host-keyword, meetrics
+
+# > maoyan
+ad.maoyan.com
+
+# > meituan
+al-log.d.meituan.net
+babel-statistics-android.d.meituan.net
+maplocatesdksnapshot.d.meituan.net
+metrics-picture.d.meituan.net
+route-stats.d.meituan.net
+
 
 # >>>>>>>>>>>>>>> ✅ n ✅ <<<<<<<<<<<<<<
 video-ads-module.ad-tech.nbcuni.com
