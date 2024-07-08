@@ -17,3 +17,5 @@ thank for
 @blackmatrix7 `https://github.com/blackmatrix7/ios_rule_script/tree/master`
 
 @ZenmoFeiShi `https://github.com/ZenmoFeiShi/Qx`
+
+@keli `https://github.com/luestr/ProxyResource/tree/main/Tool/Loon/Plugin`
