@@ -208,27 +208,26 @@ sdk.beizi.biz
 api-htp.beizi.biz
 
 # > baidu
-mobads.baidu.com
-mobads-logs.baidu.com
+dlswbr.baidu.com
+h2tcbox.baidu.com
+nmtest.bdstatic.com
+feed-image.baidu.com
+als.baidu.com
+bgg.baidu.com
 miao.baidu.com
 xlab.baidu.com
+gsp0.baidu.com
+dss0.baidu.com
+mobads.baidu.com
+mobads-logs.baidu.com
 pos.baidu.com
 wn.pos.baidu.com
-h2tcbox.baidu.com
-gsp0.baidu.com
-dlswbr.baidu.com
 afd.baidu.com
 afdconf.baidu.com
-dss0.baidu.com
-nmtest.bdstatic.com
-httpdns.baidu.com
-httpdns.baidubce.com
-als.baidu.com
-feed-image.baidu.com
-afdconf.baidu.com
-bgg.baidu.com
 union.baidu.cn
 union.baidu.com
+httpdns.baidu.com
+httpdns.baidubce.com
 ip-cidr, 180.76.76.200/32
 ip-cidr, 180.76.76.112/32
 
@@ -707,10 +706,17 @@ pgdt.ugdtimg.com
 offlinev2.gtimg.cn
 tianshu.gtimg.cn
 sola.gtimg.cn
+i.gtimg.cn
+qzs.gdtimg.com
 gcaqso.gtimg.cn
 adsmind.gdtimg.com
-qzs.gdtimg.com
+adsmind.ugdtimg.com
+host-suffix, gdtimg.com
+host-suffix, ugdtimg.com
 # qq
+ios.bugly.qq.com
+mazu.m.qq.com
+sdk.e.qq.com
 tpns.qq.com
 otheve.beacon.qq.com
 stat.y.qq.com
@@ -718,7 +724,6 @@ tmead.y.qq.com
 tmeadkg.y.qq.com
 oth.str.mdt.qq.com
 sq.bls.mdt.qq.com
-sdk.e.qq.com
 ios.video.mpush.qq.com
 info4.video.qq.com
 info6.video.qq.com
@@ -862,6 +867,20 @@ host-suffix, xmlwizard.com
 host-suffix, xpanama.net
 host-suffix, xy7elite.com
 
+# xiaoxiangchaoshi
+ip-cidr, 101.236.12.16/32
+ip-cidr, 101.50.8.64/32
+ip-cidr, 103.37.142.230/32
+ip-cidr, 103.37.152.161/32
+ip-cidr, 103.37.152.162/32
+ip-cidr, 103.63.160.64/32
+ip-cidr, 202.90.108.69/32
+ip-cidr, 202.90.110.45/32
+ip-cidr, 202.90.110.8/32
+ip-cidr, 203.76.217.241/32
+ip-cidr, 203.76.217.243/32
+ip-cidr, 203.76.217.37/32
+
 # >>>>>>>>>>>>>>> ✅ y ✅ <<<<<<<<<<<<<<
 union-httpdns.gslb.yy.com
 lxcode.bs2cdn.yy.com
@@ -967,6 +986,7 @@ js.11long20240111.live
 aba.51korean.com
 js.4long20240104.live
 comp.360os.com
+render-web.11222.cn
 api-e189.21cn.com
 host-suffix, 365yg.com
 host-suffix, 0ns32h.com
