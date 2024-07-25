@@ -141,40 +141,23 @@ host-suffix, atomhike.com
 host-suffix, axonix.com
 host-suffix, applovin.com
 host-suffix, applvn.com
-host-suffix, adkwai.com
-host-keyword, ad6media
-host-keyword, adsage
-host-keyword, afcdn.net
+host-suffix, afcdn.net
+host-suffix, adukwai.com
+
+# > admobile
+host-suffix, admobile.top
 
 # > alibaba
 hudong.alicdn.com
 ems.youku.com
 ossgw.alicdn.com
-adashx.ut.amap.com
-adashx.ut.ele.me
-adashx.ut.youku.com
-adash.man.aliyuncs.com
 appdownload.alicdn.com
+host-keyword, adash
 
 # taobao
 sjarvis.taobao.com
-adash-c.m.taobao.com
-adash.m.taobao.com
-adashbc.m.taobao.com
-adashx.m.taobao.com
-adashx4yt.m.taobao.com
-h-adashx.ut.taobao.com
-adash-c.ut.taobao.com
-adashx.ut.taobao.com
-adashbc.ut.taobao.com
-adashx4ae.ut.taobao.com
-adashx4sg.ut.taobao.com
-adashxgc.ut.taobao.com
 rhdc-acs.m.taobao.com
-# dingding
-h-adashx.ut.dingtalk.com
-h-adashx.ut.dingtalk.com
-adashx.ut.dingtalk.com
+host-keyword, ut.taobao.com
 
 # > apple
 advertising.apple.com
@@ -282,9 +265,7 @@ ad-display.diwodiwo.xyz
 itid3.dataryon.com
 host-suffix, domob.cn
 host-suffix, dotomi.com
-host-suffix, doubleverify.com
 host-suffix, dtscout.com
-host-keyword, doubleclick
 
 # > didi
 ip-cidr, 123.207.209.39/32
@@ -315,11 +296,10 @@ ads.flurry.com
 adlog.flurry.com
 
 # >>>>>>>>>>>>>>> ✅ g ✅ <<<<<<<<<<<<<<
-gdfp.gifshow.com
-uu.gscsahv025.com
 host-suffix, go2cloud.org
 host-suffix, growingio.com
 host-suffix, gizlnr.com
+host-suffix, gifshow.com
 
 # > google
 googleads-cn.com
@@ -338,6 +318,7 @@ mail-ads.google.com
 google-analytics.com
 adservice.google.com
 analytics.google.com
+host-keyword, doubleclick
 
 # >>>>>>>>>>>>>>> ✅ h ✅ <<<<<<<<<<<<<<
 ad.huajiao.com
@@ -373,20 +354,29 @@ api.zuihuimai.com
 # >>>>>>>>>>>>>>> ✅ j ✅ <<<<<<<<<<<<<<
 ad.jiemian.com
 ad-cn.jovcloud.com
-smartop-sdkapi.jiguang.cn
 adx.jlgxmob.com
 host-suffix, jads.co
 host-suffix, juicyads.com
 
 # > jd
-im-x.jd.com
+dsp-x.jd.com
+xlog.jd.com
+janapi.jd.com
+
+# > jiguang
+host-suffix, jiguang.cn
+host-suffix, jpush.cn
+host-suffix, jpush.io
 
 # >>>>>>>>>>>>>>> ✅ k ✅ <<<<<<<<<<<<<<
 api-ad.kajicam.com
-open.e.kuaishou.com
-open.kuaishou.com
 kuaishouzt.com
 qqt.kmhnk00.com
+
+# > kuaishou
+open.e.kuaishou.com
+open.e.kuaishou.cn
+open.kuaishou.com
 
 # >>>>>>>>>>>>>>> ✅ l ✅ <<<<<<<<<<<<<<
 leadboltmobile.net
@@ -852,6 +842,12 @@ iadmusicmatvideo.music.126.net
 ipv4.music.163.com
 ipv6.music.163.com
 163jiasu.com
+nex.163.com
+iad.g.163.com
+adx-bj.anythinktech.com
+api.anythinktech.com
+tk.anythinktech.com
+da.anythinktech.com
 
 # >>>>>>>>>>>>>>> ✅ x ✅ <<<<<<<<<<<<<<
 ad.xy2013.cn
@@ -919,17 +915,41 @@ zxrtb.com
 saad.ms.zhangyue.net
 
 # > zijie
+applog.zijieapi.com
+timon.zijieapi.com
+mon.zijieapi.com
+ad.zijieapi.com
+dig.bdurl.net
+dig.zjurl.cn
+zlink.ugsdk.cn
+i.snssdk.com
+is.snssdk.com
+is-lq.snssdk.com
+i-lq.snssdk.com
+pangolin.snssdk.com
+log.snssdk.com
+toblog.ctobsnssdk.com
+sdfp.snssdk.com
+bds.snssdk.com
+extlog.snssdk.com
+dm.bytedance.com
+dm.pstatp.com
+s3a.pstatp.com
+dm.toutiao.com
+tosv.boe.byted.org
+tosv.byted.org
+mssdk-bu.bytedance.com
+mssdk.volces.com
+mon3-misc-lq.fqnovel.com
+mon11-misc.fqnovel.com
+mon11-misc-lq.fqnovel.com
 p9-aio.ecombdimg.com
 p3-aio.ecombdimg.com
-minigame5-normal.zijieapi.com
-minigame3-normal.zijieapi.com
-ads5-normal-lq.zijieapi.com
-ads3-normal-lq.zijieapi.com
-ads5-normal.zijieapi.com
-ads3-normal.zijieapi.com
-polaris3-normal-lq.zijieapi.com
-polaris5-normal-lq.zijieapi.com
-polaris.zijieapi.com
+webcast-open.douyin.com
+webcast5-open-lq.douyin.com
+webcast5-open-lf.douyin.com
+p3-webcast-sign.douyinpic.com
+p6-webcast-sign.douyinpic.com
 gecko5-lq.zijieapi.com
 gecko3-lq.zijieapi.com
 gecko3.zijieapi.com
@@ -939,44 +959,19 @@ tnc3-aliec1.zijieapi.com
 tnc3-alisc1.zijieapi.com
 tnc3-alisc2.zijieapi.com
 tnc0-aliec2.zijieapi.com
-applog.zijieapi.com
 abtest3-misc.zijieapi.com
 abtest3-misc-lq.zijieapi.com
-mon3-misc-lq.fqnovel.com
-mon11-misc.fqnovel.com
-mon11-misc-lq.fqnovel.com
-timon.zijieapi.com
-mon.zijieapi.com
 zlink-sinfonlinea.toutiao.com
-log3-applog-lq.fqnovel.com
-rtlog3-applog-lq.fqnovel.com
-log0-applog-lq.fqnovel.com
-rtlog5-applog-lq.fqnovel.com
-webcast-open.douyin.com
-webcast5-open-lq.douyin.com
-webcast5-open-lf.douyin.com
-p3-webcast-sign.douyinpic.com
-p6-webcast-sign.douyinpic.com
-p3-ad-sign.byteimg.com
-p6-ad-sign.byteimg.com
-p9-ad-sign.byteimg.com
-dig.bdurl.net
-dig.zjurl.cn
-zlink.ugsdk.cn
-i.snssdk.com
-is.snssdk.com
-is-lq.snssdk.com
-i-lq.snssdk.com
-pangolin.snssdk.com
-toblog.ctobsnssdk.com
-ad.zijieapi.com
 gromore.pangolin-sdk-toutiao.com
 host-suffix, fqnovelvod.com
-host-keyword, ad-sign.byteimg.com
-host-keyword, ads.g.doubleclick
-host-keyword, asiad.byteactivity
 host-keyword, pglstatp-toutiao.com
-host-suffix, pangolin-dsp-toutiao.com
+host-keyword, -ad-sign.byteimg.com
+host-keyword, -normal-lq.zijieapi.com
+host-keyword, -normal.zijieapi.com
+host-keyword, -applog-lq.fqnovel.com
+host-keyword, -ad.byteoversea.com
+host-keyword, api-access.pangolin-sdk-toutiao
+host-keyword, log-api.pangolin-sdk-toutiao
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
 i.5432kk.com
