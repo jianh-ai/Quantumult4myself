@@ -89,22 +89,23 @@ adlog.flurry.com
 
 # >>>>>>>>>>>>>>> ✅ g ✅ <<<<<<<<<<<<<<
 # > google
-googleads-cn.com
-googleads.github.io
-googleadservices.com
-googleadservices-cn.com
-googlesyndication.com
-googlesyndication-cn.com
-googleadsserving.cn
-googleanalytics.com
-googleseo.life
-googletagmanager.com
-googletagservices.com
-googlevads-cn.com
+youtubei.googleapis.com
 mail-ads.google.com
-google-analytics.com
-adservice.google.com
-analytics.google.com
+host-suffix, googlevideo.com
+host-suffix, googleads-cn.com
+host-suffix, googlevads-cn.com
+host-suffix, googleadservices.com
+host-suffix, googleadservices-cn.com
+host-suffix, googlesyndication.com
+host-suffix, googlesyndication-cn.com
+host-suffix, googleadsserving.cn
+host-suffix, googleanalytics.com
+host-suffix, googletagmanager.com
+host-suffix, googletagservices.com
+host-suffix, google-analytics.com
+host-suffix, adservice.google.com
+host-suffix, analytics.google.com
+# doubleclick
 host-keyword, doubleclick
 
 # >>>>>>>>>>>>>>> ✅ h ✅ <<<<<<<<<<<<<<
@@ -309,13 +310,24 @@ ip-cidr, 203.76.217.243/32
 ip-cidr, 203.76.217.37/32
 
 # >>>>>>>>>>>>>>> ✅ y ✅ <<<<<<<<<<<<<<
+# yy
 union-httpdns.gslb.yy.com
 lxcode.bs2cdn.yy.com
 yyrisk-httpproxy.yy.com
 
+# yximg
 host-keyword, yximgs
 
 # >>>>>>>>>>>>>>> ✅ z ✅ <<<<<<<<<<<<<<
+# > zhihu
+appcloud.zhihu.com
+appcloud2.in.zhihu.com
+crash2.zhihu.com
+mqtt.zhihu.com
+sugar.zhihu.com
+zxid-m.mobileservice.cn
+ip-cidr, 103.41.167.237/32
+ip-cidr, 118.89.204.198/32
 
 # > zijie
 applog.zijieapi.com
@@ -353,6 +365,14 @@ webcast5-open-lq.douyin.com
 webcast5-open-lf.douyin.com
 p3-webcast-sign.douyinpic.com
 p6-webcast-sign.douyinpic.com
+minigame5-normal.zijieapi.com
+minigame3-normal.zijieapi.com
+ads5-normal.zijieapi.com
+ads3-normal.zijieapi.com
+ads5-normal-lq.zijieapi.com
+ads3-normal-lq.zijieapi.com
+polaris3-normal-lq.zijieapi.com
+polaris5-normal-lq.zijieapi.com
 gecko5-lq.zijieapi.com
 gecko3-lq.zijieapi.com
 gecko3.zijieapi.com
@@ -369,8 +389,6 @@ gromore.pangolin-sdk-toutiao.com
 host-suffix, fqnovelvod.com
 host-keyword, pglstatp-toutiao.com
 host-keyword, -ad-sign.byteimg.com
-host-keyword, -normal-lq.zijieapi.com
-host-keyword, -normal.zijieapi.com
 host-keyword, -applog-lq.fqnovel.com
 host-keyword, -ad.byteoversea.com
 host-keyword, api-access.pangolin-sdk-toutiao
