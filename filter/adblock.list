@@ -37,7 +37,6 @@ host-suffix, iadsdk.apple.com
 # > baidu
 dlswbr.baidu.com
 h2tcbox.baidu.com
-nmtest.bdstatic.com
 feed-image.baidu.com
 als.baidu.com
 bgg.baidu.com
@@ -56,8 +55,13 @@ union.baidu.com
 httpdns.baidu.com
 httpsdns.baidu.com
 httpdns.baidubce.com
+nmtest.bdstatic.com
+mobads-pre-config.cdn.bcebos.com
 ip-cidr, 180.76.76.200/32
 ip-cidr, 180.76.76.112/32
+
+# > bilibili
+httpdns.bilivideo.com
 
 # > baicizhan
 notify.baicizhan.com
@@ -122,6 +126,10 @@ api.zuihuimai.com
 dsp-x.jd.com
 bdsp-x.jd.com
 dns.jd.com
+dsp-x.jd.com
+xlog.jd.com
+janapi.jd.com
+ip-cidr, 103.224.222.208/32
 ip-cidr, 101.124.19.122/32
 ip6-cidr, 2402:db40:5100:1011::5/128
 
@@ -332,7 +340,6 @@ ip-cidr, 103.41.167.237/32
 ip-cidr, 118.89.204.198/32
 
 # > zijie
-lf-cdn-tos.bytescm.com
 dig.bdurl.net
 dig.zjurl.cn
 dm.bytedance.com
@@ -340,12 +347,17 @@ dm.toutiao.com
 tosv.boe.byted.org
 tosv.byted.org
 mssdk-bu.bytedance.com
+if-analytics.bytescm.com
+lf-analytics.bytescm.com
+lf-cdn-tos.bytescm.com
+if-cdn-tos.bytescm.com
 webcast-open.douyin.com
 webcast5-open-lq.douyin.com
 webcast5-open-lf.douyin.com
 p3-webcast-sign.douyinpic.com
 p6-webcast-sign.douyinpic.com
 zlink-sinfonlinea.toutiao.com
+gromore.pangolin-sdk-toutiao.com
 host-keyword, pglstatp-toutiao.com
 host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
@@ -370,6 +382,7 @@ applog.zijieapi.com
 timon.zijieapi.com
 mon.zijieapi.com
 ad.zijieapi.com
+tnc0-bjlgy.zijieapi.com
 tnc3-aliec2.zijieapi.com
 tnc3-aliec1.zijieapi.com
 tnc3-alisc1.zijieapi.com
@@ -394,6 +407,7 @@ pangolin.snssdk.com
 log.snssdk.com
 toblog.ctobsnssdk.com
 sdfp.snssdk.com
+video-cn.snssdk.com
 bds.snssdk.com
 extlog.snssdk.com
 # fqnovel
