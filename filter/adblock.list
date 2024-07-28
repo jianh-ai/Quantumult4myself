@@ -340,14 +340,8 @@ ip-cidr, 103.41.167.237/32
 ip-cidr, 118.89.204.198/32
 
 # > zijie
-zlink.ugsdk.cn
 dig.bdurl.net
 dig.zjurl.cn
-dm.bytedance.com
-dm.toutiao.com
-tosv.boe.byted.org
-tosv.byted.org
-mssdk-bu.bytedance.com
 if-analytics.bytescm.com
 lf-analytics.bytescm.com
 lf-cdn-tos.bytescm.com
@@ -359,7 +353,6 @@ p3-webcast-sign.douyinpic.com
 p6-webcast-sign.douyinpic.com
 zlink-sinfonlinea.toutiao.com
 gromore.pangolin-sdk-toutiao.com
-host-keyword, pglstatp-toutiao.com
 host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
 host-keyword, api-access.pangolin-sdk-toutiao
@@ -403,9 +396,6 @@ s3a.pstatp.com
 # volces
 mssdk.volces.com
 # snssdk
-frontier-aweme-hl.snssdk.com
-frontier-aweme.snssdk.com
-frontier-quic-test.bytedance.com
 i.snssdk.com
 is.snssdk.com
 is-lq.snssdk.com
@@ -413,10 +403,12 @@ i-lq.snssdk.com
 pangolin.snssdk.com
 log.snssdk.com
 toblog.ctobsnssdk.com
-sdfp.snssdk.com
-video-cn.snssdk.com
 bds.snssdk.com
-extlog.snssdk.com
+tnc3-alisc1.snssdk.com
+tnc3-bjlgy.snssdk.com
+tnc3-aliec2.snssdk.com
+frontier-aweme-hl.snssdk.com
+frontier-aweme.snssdk.com
 # fqnovel
 mon3-misc-lq.fqnovel.com
 mon11-misc.fqnovel.com
