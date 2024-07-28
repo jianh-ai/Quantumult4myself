@@ -340,6 +340,7 @@ ip-cidr, 103.41.167.237/32
 ip-cidr, 118.89.204.198/32
 
 # > zijie
+zlink.ugsdk.cn
 dig.bdurl.net
 dig.zjurl.cn
 dm.bytedance.com
@@ -367,7 +368,11 @@ ip-cidr, 110.249.199.75/32
 ip-cidr, 111.225.147.191/32
 ip-cidr, 111.63.61.101/32
 ip-cidr, 220.243.141.0/32
+# amemv
+frontier-aweme-hl-ipainner.amemv.com
 # zijieapi
+ma5-normal-hl.zijieapi.com
+polaris5-normal-hl.zijieapi.com
 minigame5-normal.zijieapi.com
 minigame3-normal.zijieapi.com
 ads5-normal.zijieapi.com
@@ -398,7 +403,9 @@ s3a.pstatp.com
 # volces
 mssdk.volces.com
 # snssdk
-zlink.ugsdk.cn
+frontier-aweme-hl.snssdk.com
+frontier-aweme.snssdk.com
+frontier-quic-test.bytedance.com
 i.snssdk.com
 is.snssdk.com
 is-lq.snssdk.com
