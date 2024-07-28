@@ -156,6 +156,19 @@ babel-statistics-android.d.meituan.net
 maplocatesdksnapshot.d.meituan.net
 metrics-picture.d.meituan.net
 route-stats.d.meituan.net
+# xiaoxiangchaoshi
+ip-cidr, 101.236.12.16/32
+ip-cidr, 101.50.8.64/32
+ip-cidr, 103.37.142.230/32
+ip-cidr, 103.37.152.161/32
+ip-cidr, 103.37.152.162/32
+ip-cidr, 103.63.160.64/32
+ip-cidr, 202.90.108.69/32
+ip-cidr, 202.90.110.45/32
+ip-cidr, 202.90.110.8/32
+ip-cidr, 203.76.217.241/32
+ip-cidr, 203.76.217.243/32
+ip-cidr, 203.76.217.37/32
 
 # >>>>>>>>>>>>>>> ✅ n ✅ <<<<<<<<<<<<<<
 
@@ -164,7 +177,7 @@ route-stats.d.meituan.net
 
 
 # >>>>>>>>>>>>>>> ✅ p ✅ <<<<<<<<<<<<<<
-# pinduoduo
+# > pinduoduo
 titan.pinduoduo.com
 
 # > pinganjinguanjia
@@ -234,7 +247,7 @@ wxsnsdy.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
-# >umeng
+# > umeng
 utoken.umeng.com
 ucc.umeng.com
 errlog.umeng.com
@@ -295,20 +308,6 @@ api.ad.xiaomi.com
 cd.xdplt.com
 mv-ps.xdplt.com
 
-# xiaoxiangchaoshi
-ip-cidr, 101.236.12.16/32
-ip-cidr, 101.50.8.64/32
-ip-cidr, 103.37.142.230/32
-ip-cidr, 103.37.152.161/32
-ip-cidr, 103.37.152.162/32
-ip-cidr, 103.63.160.64/32
-ip-cidr, 202.90.108.69/32
-ip-cidr, 202.90.110.45/32
-ip-cidr, 202.90.110.8/32
-ip-cidr, 203.76.217.241/32
-ip-cidr, 203.76.217.243/32
-ip-cidr, 203.76.217.37/32
-
 # >>>>>>>>>>>>>>> ✅ y ✅ <<<<<<<<<<<<<<
 # yy
 union-httpdns.gslb.yy.com
@@ -330,12 +329,55 @@ ip-cidr, 103.41.167.237/32
 ip-cidr, 118.89.204.198/32
 
 # > zijie
+lf-cdn-tos.bytescm.com
+dig.bdurl.net
+dig.zjurl.cn
+dm.bytedance.com
+dm.toutiao.com
+tosv.boe.byted.org
+tosv.byted.org
+mssdk-bu.bytedance.com
+webcast-open.douyin.com
+webcast5-open-lq.douyin.com
+webcast5-open-lf.douyin.com
+p3-webcast-sign.douyinpic.com
+p6-webcast-sign.douyinpic.com
+zlink-sinfonlinea.toutiao.com
+host-keyword, pglstatp-toutiao.com
+host-keyword, -ad-sign.byteimg.com
+host-keyword, -ad.byteoversea.com
+host-keyword, api-access.pangolin-sdk-toutiao
+host-keyword, log-api.pangolin-sdk-toutiao
+# zijieapi
+minigame5-normal.zijieapi.com
+minigame3-normal.zijieapi.com
+ads5-normal.zijieapi.com
+ads3-normal.zijieapi.com
+ads5-normal-lq.zijieapi.com
+ads3-normal-lq.zijieapi.com
+gecko5-lq.zijieapi.com
+gecko3-lq.zijieapi.com
+gecko3.zijieapi.com
+gecko5.zijieapi.com
 applog.zijieapi.com
 timon.zijieapi.com
 mon.zijieapi.com
 ad.zijieapi.com
-dig.bdurl.net
-dig.zjurl.cn
+tnc3-aliec2.zijieapi.com
+tnc3-aliec1.zijieapi.com
+tnc3-alisc1.zijieapi.com
+tnc3-alisc2.zijieapi.com
+tnc0-aliec2.zijieapi.com
+tnc0-alisc1.zijieapi.com
+# ecombdimg
+p9-aio.ecombdimg.com
+p3-aio.ecombdimg.com
+# pstatp
+dm.pstatp.com
+s3a.pstatp.com
+# volces
+mssdk.volces.com
+# snssdk
 zlink.ugsdk.cn
 i.snssdk.com
 is.snssdk.com
@@ -347,49 +389,10 @@ toblog.ctobsnssdk.com
 sdfp.snssdk.com
 bds.snssdk.com
 extlog.snssdk.com
-dm.bytedance.com
-dm.pstatp.com
-s3a.pstatp.com
-dm.toutiao.com
-tosv.boe.byted.org
-tosv.byted.org
-mssdk-bu.bytedance.com
-mssdk.volces.com
+# fqnovel
 mon3-misc-lq.fqnovel.com
 mon11-misc.fqnovel.com
 mon11-misc-lq.fqnovel.com
-p9-aio.ecombdimg.com
-p3-aio.ecombdimg.com
-webcast-open.douyin.com
-webcast5-open-lq.douyin.com
-webcast5-open-lf.douyin.com
-p3-webcast-sign.douyinpic.com
-p6-webcast-sign.douyinpic.com
-minigame5-normal.zijieapi.com
-minigame3-normal.zijieapi.com
-ads5-normal.zijieapi.com
-ads3-normal.zijieapi.com
-ads5-normal-lq.zijieapi.com
-ads3-normal-lq.zijieapi.com
-polaris3-normal-lq.zijieapi.com
-polaris5-normal-lq.zijieapi.com
-gecko5-lq.zijieapi.com
-gecko3-lq.zijieapi.com
-gecko3.zijieapi.com
-gecko5.zijieapi.com
-tnc3-aliec2.zijieapi.com
-tnc3-aliec1.zijieapi.com
-tnc3-alisc1.zijieapi.com
-tnc3-alisc2.zijieapi.com
-tnc0-aliec2.zijieapi.com
-zlink-sinfonlinea.toutiao.com
-gromore.pangolin-sdk-toutiao.com
-host-suffix, fqnovelvod.com
-host-keyword, pglstatp-toutiao.com
-host-keyword, -ad-sign.byteimg.com
 host-keyword, -applog-lq.fqnovel.com
-host-keyword, -ad.byteoversea.com
-host-keyword, api-access.pangolin-sdk-toutiao
-host-keyword, log-api.pangolin-sdk-toutiao
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
