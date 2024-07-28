@@ -54,6 +54,7 @@ afdconf.baidu.com
 union.baidu.cn
 union.baidu.com
 httpdns.baidu.com
+httpsdns.baidu.com
 httpdns.baidubce.com
 ip-cidr, 180.76.76.200/32
 ip-cidr, 180.76.76.112/32
@@ -119,8 +120,10 @@ api.zuihuimai.com
 # >>>>>>>>>>>>>>> ✅ j ✅ <<<<<<<<<<<<<<
 # > jd
 dsp-x.jd.com
-xlog.jd.com
-janapi.jd.com
+bdsp-x.jd.com
+dns.jd.com
+ip-cidr, 101.124.19.122/32
+ip6-cidr, 2402:db40:5100:1011::5/128
 
 # > jpush
 host-suffix, jiguang.cn
@@ -348,6 +351,10 @@ host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
 host-keyword, api-access.pangolin-sdk-toutiao
 host-keyword, log-api.pangolin-sdk-toutiao
+ip-cidr, 110.249.199.75/32
+ip-cidr, 111.225.147.191/32
+ip-cidr, 111.63.61.101/32
+ip-cidr, 220.243.141.0/32
 # zijieapi
 minigame5-normal.zijieapi.com
 minigame3-normal.zijieapi.com
