@@ -96,7 +96,6 @@ adlog.flurry.com
 # > google
 youtubei.googleapis.com
 mail-ads.google.com
-host-suffix, googlevideo.com
 host-suffix, googleads-cn.com
 host-suffix, googlevads-cn.com
 host-suffix, googleadservices.com
