@@ -272,31 +272,18 @@ ulogs.umengcloud.com
 # > weibo
 ad.weibo.com
 biz.weibo.com
+biz.weibo.cn
 biz.weibo.com.cn
 wax.weibo.com.cn
-alitui.weibo.com
-tui.weibo.com
-zymo.mps.weibo.com
-sdkapp.uve.weibo.com
-wbapp.uve.weibo.com
 adimg.uve.weibo.com
-wbapp.uve.weibo.com
-click.uve.weibo.com
-fastimage.uve.weibo.com
-dp.im.weibo.cn
-dns.weibo.cn
 gw5.push.mcp.weibo.cn
 gw6.push.mcp.weibo.cn
-promote.biz.weibo.cn
 ad.us.sinaimg.cn
 adblock.sina.cn
 adimages.sina.com.hk
 adimg.mobile.sina.cn
 ads.sina.com
 appgift.sinaapp.com
-host-keyword, game.weibo
-host-suffix,cre-dp.sina.cn
-host-suffix,cre.dp.sina.cn
 
 # > netease
 iadmat.nosdn.127.net
