@@ -115,6 +115,9 @@ host-keyword, doubleclick
 # > huya
 v1d.szbdyd.com
 
+# > hubcloud
+hubcloud.com.cn
+
 # >>>>>>>>>>>>>>> ✅ i ✅ <<<<<<<<<<<<<<
 # > ithome
 api.zuihuimai.com
@@ -257,12 +260,8 @@ wxsnsdythumb.wxs.qq.com
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
 # > umeng
-utoken.umeng.com
-ucc.umeng.com
-errlog.umeng.com
-ulogs.umeng.com
-alogs.umeng.com
 ulogs.umengcloud.com
+host-keyword, umeng.com
 
 # >>>>>>>>>>>>>>> ✅ v ✅ <<<<<<<<<<<<<<
 
@@ -275,7 +274,7 @@ biz.weibo.cn
 biz.weibo.com.cn
 wax.weibo.com.cn
 adimg.uve.weibo.com
-gw5.push.mcp.weibo.cn
+gw5.push.mcp.weibo.cn 
 gw6.push.mcp.weibo.cn
 ad.us.sinaimg.cn
 adblock.sina.cn
