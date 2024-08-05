@@ -32,6 +32,9 @@ host-suffix, iad-apple.com
 host-suffix, iadsdk.apple.com
 
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
+bianxianmao.com
+host-keyword, beizi.biz
+
 # > baidu
 dlswbr.baidu.com
 h2tcbox.baidu.com
@@ -79,7 +82,6 @@ ad.cyapi.cn
 ma-adx.ctrip.com
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
-
 # > didi
 ip-cidr, 123.207.209.39/32
 ip-cidr, 123.207.209.60/32
@@ -112,6 +114,8 @@ host-suffix, analytics.google.com
 host-keyword, doubleclick
 
 # >>>>>>>>>>>>>>> ✅ h ✅ <<<<<<<<<<<<<<
+sdk.tj-haorui.cn
+
 # > huya
 v1d.szbdyd.com
 
@@ -211,6 +215,9 @@ qemyapi.qiekj.com
 host-keyword, sigmob
 
 # >>>>>>>>>>>>>>> ✅ t ✅ <<<<<<<<<<<<<<
+# > tuia
+adx.tuia.cn
+
 # > tencent
 # gtimg
 pgdt.gtimg.com
@@ -260,8 +267,8 @@ wxsnsdythumb.wxs.qq.com
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
 # > umeng
-ulogs.umengcloud.com
 host-keyword, umeng.com
+host-keyword, umengcloud.com
 
 # >>>>>>>>>>>>>>> ✅ v ✅ <<<<<<<<<<<<<<
 
@@ -300,8 +307,7 @@ da.anythinktech.com
 
 # >>>>>>>>>>>>>>> ✅ x ✅ <<<<<<<<<<<<<<
 api.ad.xiaomi.com
-cd.xdplt.com
-mv-ps.xdplt.com
+host-keyword, xdplt.com
 
 # >>>>>>>>>>>>>>> ✅ y ✅ <<<<<<<<<<<<<<
 # yy
@@ -401,3 +407,5 @@ mon11-misc-lq.fqnovel.com
 host-keyword, -applog-lq.fqnovel.com
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
+# > 1rtb
+sdk.1rtb.net
