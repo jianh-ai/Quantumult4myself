@@ -77,6 +77,7 @@ events.bczeducation.cn
 # >>>>>>>>>>>>>>> ✅ c ✅ <<<<<<<<<<<<<<
 # caiyun
 ad.cyapi.cn
+abyss.cyapi.cn
 
 # > ctrip
 ma-adx.ctrip.com
@@ -153,6 +154,10 @@ host-suffix, adukwai.com
 # gifshow
 host-suffix, gifshow.com
 
+# > kugou
+ads.service.kugou.com
+adserviceretry.kugou.com
+
 # >>>>>>>>>>>>>>> ✅ l ✅ <<<<<<<<<<<<<<
 
 
@@ -178,6 +183,7 @@ ip-cidr, 101.50.8.64/32
 ip-cidr, 103.37.142.230/32
 ip-cidr, 103.37.152.161/32
 ip-cidr, 103.37.152.162/32
+IP-CIDR, 103.37.155.60/32
 ip-cidr, 103.63.160.64/32
 ip-cidr, 202.90.108.69/32
 ip-cidr, 202.90.110.45/32
@@ -271,7 +277,37 @@ host-keyword, umeng.com
 host-keyword, umengcloud.com
 
 # >>>>>>>>>>>>>>> ✅ v ✅ <<<<<<<<<<<<<<
-
+# vicacg
+api.ip.sb
+imdn.pics
+p.a64x.com
+getrunkhomuto.info
+popdemission.com
+wuet.os986y.live
+tupian.ohyuygr.cn
+kizbfz.iwzorn.xyz
+670d3773bc.bf4f3dc283.com
+infatuated-difference.pro
+1ed2497413.4f528af8ae.com
+azsx.hdiwqdbjhadoihwe.com
+bcd810ade1.4d7756473b.com
+6212fa3aca.d42f3af90a.com
+js.capndr.com
+js.wpadmngr.com
+js.juicyads.com
+js.wpshsdk.com
+js.cabnnr.com
+host-suffix, cnzz.com
+host-suffix, uuidksinc.net
+host-suffix, nereserv.com
+host-suffix, alwingulla.com
+host-suffix, vinsgcs.com
+host-suffix, ntvpforever.com
+host-suffix, atethebenefitsshe.com
+host-suffix, nawpush.com
+host-suffix, ignslkgs.com
+host-suffix, trikeunpured.com
+host-suffix, cloudfront.net
 
 # >>>>>>>>>>>>>>> ✅ w ✅ <<<<<<<<<<<<<<
 # > weibo
@@ -280,6 +316,7 @@ biz.weibo.com
 biz.weibo.cn
 biz.weibo.com.cn
 wax.weibo.com.cn
+huodong.weibo.cn
 adimg.uve.weibo.com
 gw5.push.mcp.weibo.cn 
 gw6.push.mcp.weibo.cn
