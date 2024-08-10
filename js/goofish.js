@@ -3,7 +3,7 @@ const url = $request.url;
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
-if (url.includes("mtop.taobao.idle.user.action.strategy")) {
+if (url.includes("/gw/mtop.taobao.idle.user.action.strategy")) {
     // 移除 data
     if (obj && obj.data) {
         delete obj.data;
