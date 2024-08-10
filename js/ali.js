@@ -1,3 +1,4 @@
+// 2024-06
 const url = $request.url;
 const header = $request.headers;
 const headopt = header["Operation-Type"] || header["operation-type"];
