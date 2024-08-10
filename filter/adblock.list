@@ -201,6 +201,14 @@ ip-cidr, 203.76.217.37/32
 # >>>>>>>>>>>>>>> ✅ p ✅ <<<<<<<<<<<<<<
 # > pinduoduo
 titan.pinduoduo.com
+apm-a.pinduoduo.com
+apm.pinduoduo.com
+m.pinduoduo.net
+ta-a.pinduoduo.com
+ta.pinduoduo.com
+th-a.pinduoduo.com
+th-b.pinduoduo.com
+th.pinduoduo.com
 
 # > pinganjinguanjia
 mina-core.pingan.com
