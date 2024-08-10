@@ -16,18 +16,6 @@ host-suffix, tanx.com
 rhdc-acs.m.taobao.com
 host-keyword, ut.taobao.com
 
-# > apple
-launch.apple.com
-iad.apple.com
-iadcontent.apple.com
-iadmoo.apple.com
-iadworkbench.apple.com
-advertising.apple.com
-api-adservices.apple.com
-banners.itunes.apple.com
-host-suffix, iad-apple.com
-host-suffix, iadsdk.apple.com
-
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
 bianxianmao.com
 host-keyword, beizi.biz
@@ -200,7 +188,6 @@ ip-cidr, 203.76.217.37/32
 titan.pinduoduo.com
 apm-a.pinduoduo.com
 apm.pinduoduo.com
-m.pinduoduo.net
 ta-a.pinduoduo.com
 ta.pinduoduo.com
 th-a.pinduoduo.com
