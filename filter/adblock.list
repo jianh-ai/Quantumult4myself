@@ -18,16 +18,13 @@ host-keyword, ut.taobao.com
 
 # > apple
 launch.apple.com
-qwapi.apple.com
 iad.apple.com
 iadcontent.apple.com
 iadmoo.apple.com
 iadworkbench.apple.com
 advertising.apple.com
 api-adservices.apple.com
-apple.comscoreresearch.com
 banners.itunes.apple.com
-host-suffix, advp.apple.com
 host-suffix, iad-apple.com
 host-suffix, iadsdk.apple.com
 
