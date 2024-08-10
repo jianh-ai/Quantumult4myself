@@ -1,4 +1,4 @@
-// 2024-07-26
+// 2024-07
 const url = $request.url;
 let header = $request.headers;
 let responseBody = JSON.parse($response.body);
