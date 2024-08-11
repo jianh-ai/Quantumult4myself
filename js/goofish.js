@@ -11,17 +11,25 @@ if (url.includes("/gw/mtop.taobao.idle.home.whale.modulet")) {
   delete obj.data.container.sections;
 }
 
-if (url.includes("/gw/mtop.taobao.idlemtopsearch.search.shade")) {
+if (url.includes("/gw/mtop.taobao.idle.local.home")) {
+  if (obj.data?.sections) {
+    obj.data.sections = obj.data.sections.filter(section => {
+      return !(section.data && section.data.bizType === "AD");
+    });
+  }
+}
+
+if (url.includes("/gw/mtop.taobao.idlemtopsearch.search.shade") || url.includes("/gw/mtop.taobao.idle.user.strategy.list")) {
   delete obj.data;
 }
 
 if (url.includes("/gw/mtop.taobao.idlehome.home.nextfresh")) {
-  if (obj.data && obj.data.sections) {
+  // 可能存在的首页标签
+  delete obj.data.widgetReturnDO;
+  // 信息流广告
+  if (obj.data?.sections) {
     obj.data.sections = obj.data.sections.filter(section => {
-      if (section.template && section.template.name === "fish_home_advertise_card_d4") {
-        return false; // 删除该数组项
-      }
-      return true; // 保留该数组项
+      return !(section.data && (section.data.bizType === "AD" || section.data.bizType === "homepage"));
     });
   }
 }
