@@ -142,6 +142,8 @@ host-suffix, jpush.cn
 host-suffix, jpush.io
 
 # >>>>>>>>>>>>>>> ✅ k ✅ <<<<<<<<<<<<<<
+sdk1xyajs.data.kuiniuca.com
+
 # > kuaishou
 open.e.kuaishou.com
 open.e.kuaishou.cn
@@ -222,7 +224,7 @@ qemyapi.qiekj.com
 
 
 # >>>>>>>>>>>>>>> ✅ s ✅ <<<<<<<<<<<<<<
-host-keyword, sigmob
+host-keyword, sigmob.cn
 
 # >>>>>>>>>>>>>>> ✅ t ✅ <<<<<<<<<<<<<<
 # > tuia
@@ -246,7 +248,6 @@ host-suffix, ugdtimg.com
 ios.bugly.qq.com
 mazu.m.qq.com
 sdk.e.qq.com
-tpns.qq.com
 otheve.beacon.qq.com
 stat.y.qq.com
 tmead.y.qq.com
@@ -256,11 +257,9 @@ ios.video.mpush.qq.com
 info4.video.qq.com
 info6.video.qq.com
 vv6.video.qq.com
-tangram.e.qq.com
 tmeadbak.y.qq.com
 host-suffix, gdt.qq.com
 host-suffix, l.qq.com
-host-suffix, imtmp.net
 host-keyword, trace.qq.com
 host-keyword, trace.video.qq.com
 # qqmusic
@@ -271,9 +270,6 @@ adcdn.tencentmusic.com
 adcdn6.tencentmusic.com
 adexpo.tencentmusic.com
 adclick.tencentmusic.com
-# wechat
-wxsnsdy.wxs.qq.com
-wxsnsdythumb.wxs.qq.com
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
 # > umeng
@@ -332,15 +328,17 @@ ads.sina.com
 appgift.sinaapp.com
 
 # > netease
+nex.163.com
+iad.g.163.com
+163jiasu.com
+httpdns.music.163.com
+httpdns.n.netease.com
 iadmat.nosdn.127.net
 iadmatapk.nosdn.127.net
 iadmusicmat.music.126.net
 iadmusicmatvideo.music.126.net
 ipv4.music.163.com
 ipv6.music.163.com
-163jiasu.com
-nex.163.com
-iad.g.163.com
 adx-bj.anythinktech.com
 api.anythinktech.com
 tk.anythinktech.com
@@ -348,6 +346,7 @@ da.anythinktech.com
 
 # >>>>>>>>>>>>>>> ✅ x ✅ <<<<<<<<<<<<<<
 api.ad.xiaomi.com
+conf-darwin.xycdn.com
 host-keyword, xdplt.com
 
 # >>>>>>>>>>>>>>> ✅ y ✅ <<<<<<<<<<<<<<
@@ -369,6 +368,7 @@ sugar.zhihu.com
 zxid-m.mobileservice.cn
 ip-cidr, 103.41.167.237/32
 ip-cidr, 118.89.204.198/32
+ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 
 # > zijie
 dig.bdurl.net
