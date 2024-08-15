@@ -1,7 +1,6 @@
 // 2024-08
 const url = $request.url;
 if (!$response.body) $done({});
-
 let obj = JSON.parse($response.body);
 
 if (url.includes("/site/launch")) {
