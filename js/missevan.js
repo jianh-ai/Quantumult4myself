@@ -31,6 +31,7 @@ if (url.includes("/catalog/sound-homepage")) {
 if (url.includes("/api/v2/chatroom/sound/recommend")) {
     delete obj.info;
 }
+
 if (url.includes("/site/config")) {
     delete obj.info.teenager_popup_mode;
 }
@@ -39,12 +40,14 @@ if (url.includes("/site/icons")) {
     if (obj.info && obj.info.icons && Array.isArray(obj.info.icons)) {
         obj.info.icons = obj.info.icons.filter(icon => icon.title !== "直播" && icon.title !== "周边商城");
     }
-} else (url.includes("/discovery/list")) {
+}
+
+if (url.includes("/discovery/list")) {
     for (const index in obj.info) {
         obj.info[index] = obj.info[index].filter(item => {
-          return !(item.title === '直播间' || item.title === '广播剧' || item.title === '免流服务')
-        })
+            return !(item.title === '直播间' || item.title === '广播剧' || item.title === '免流服务');
+        });
     }
-} 
+}
 
 $done({body: JSON.stringify(obj)});
