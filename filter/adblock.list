@@ -8,7 +8,6 @@ host-suffix, admobile.top
 # > alibaba
 hudong.alicdn.com
 ems.youku.com
-ossgw.alicdn.com
 appdownload.alicdn.com
 host-keyword, adash
 # tanx
@@ -368,9 +367,6 @@ crash2.zhihu.com
 mqtt.zhihu.com
 sugar.zhihu.com
 zxid-m.mobileservice.cn
-ip-cidr, 103.41.167.237/32
-ip-cidr, 118.89.204.198/32
-ip6-cidr, 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
 
 # > zijie
 dig.bdurl.net
