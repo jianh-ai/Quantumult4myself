@@ -1,4 +1,4 @@
-# date=2024-08-18
+# 2024-08-18
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 api.htp.ad-scope.com.cn
 host-suffix, afcdn.net
@@ -56,8 +56,7 @@ httpsdns.baidu.com
 httpdns.baidubce.com
 nmtest.bdstatic.com
 mobads-pre-config.cdn.bcebos.com
-ip-cidr, 180.76.76.200/32
-ip-cidr, 180.76.76.112/32
+host-suffix, tuisong.baidu.com
 
 # > bilibili
 httpdns.bilivideo.com
@@ -81,9 +80,6 @@ abyss.cyapi.cn
 ma-adx.ctrip.com
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
-# > didi
-ip-cidr, 123.207.209.39/32
-ip-cidr, 123.207.209.60/32
 
 # >>>>>>>>>>>>>>> ✅ e ✅ <<<<<<<<<<<<<<
 
@@ -201,13 +197,6 @@ ip-cidr, 203.76.217.37/32
 # >>>>>>>>>>>>>>> ✅ p ✅ <<<<<<<<<<<<<<
 # > pinduoduo
 titan.pinduoduo.com
-apm-a.pinduoduo.com
-apm.pinduoduo.com
-ta-a.pinduoduo.com
-ta.pinduoduo.com
-th-a.pinduoduo.com
-th-b.pinduoduo.com
-th.pinduoduo.com
 
 # > pinganjinguanjia
 mina-core.pingan.com
@@ -232,6 +221,7 @@ host-keyword, sigmob.cn
 adx.tuia.cn
 
 # > tencent
+ip-cidr, 47.110.187.87/32
 # gtimg
 pgdt.gtimg.com
 pgdt.gtimg.cn
@@ -247,7 +237,6 @@ host-suffix, gdtimg.com
 host-suffix, ugdtimg.com
 # qq
 ios.bugly.qq.com
-mazu.m.qq.com
 sdk.e.qq.com
 otheve.beacon.qq.com
 stat.y.qq.com
@@ -372,10 +361,10 @@ zxid-m.mobileservice.cn
 # > zijie
 dig.bdurl.net
 dig.zjurl.cn
+dsp.toutiao.com
 if-analytics.bytescm.com
 lf-analytics.bytescm.com
 lf-cdn-tos.bytescm.com
-if-cdn-tos.bytescm.com
 webcast-open.douyin.com
 webcast5-open-lq.douyin.com
 webcast5-open-lf.douyin.com
@@ -387,10 +376,6 @@ ether-pack.pangolin-sdk-toutiao.com
 host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
 host-keyword, log-api.pangolin-sdk-toutiao
-ip-cidr, 110.249.199.75/32
-ip-cidr, 111.225.147.191/32
-ip-cidr, 111.63.61.101/32
-ip-cidr, 220.243.141.0/32
 # amemv
 frontier-aweme-hl-ipainner.amemv.com
 mon0-misc-hl.amemv.com
