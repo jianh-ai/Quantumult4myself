@@ -385,7 +385,6 @@ gromore.pangolin-sdk-toutiao.com
 ether-pack.pangolin-sdk-toutiao.com
 host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
-host-keyword, api-access.pangolin-sdk-toutiao
 host-keyword, log-api.pangolin-sdk-toutiao
 ip-cidr, 110.249.199.75/32
 ip-cidr, 111.225.147.191/32
@@ -393,6 +392,8 @@ ip-cidr, 111.63.61.101/32
 ip-cidr, 220.243.141.0/32
 # amemv
 frontier-aweme-hl-ipainner.amemv.com
+mon0-misc-hl.amemv.com
+log0-misc-hl.amemv.com
 # zijieapi
 ma5-normal-hl.zijieapi.com
 polaris5-normal-hl.zijieapi.com
@@ -427,7 +428,6 @@ s3a.pstatp.com
 mssdk.volces.com
 # snssdk
 i.snssdk.com
-is.snssdk.com
 is-lq.snssdk.com
 i-lq.snssdk.com
 pangolin.snssdk.com
