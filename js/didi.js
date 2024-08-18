@@ -21,17 +21,23 @@ if (url.includes("/homepage/v1/core")) {
   // 全部保留
 
   // 保留底部tap首页、我的
-  const keepBottomNavIds = ['v6x_home', 'user_center' ];
+  const keepBottomNavIds = ['v6x_home', 'home_page', 'user_center'];
   if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.bottom_nav_list && obj.data.disorder_cards.bottom_nav_list.data) {
     obj.data.disorder_cards.bottom_nav_list.data = obj.data.disorder_cards.bottom_nav_list.data.filter(item => keepBottomNavIds.includes(item.id));
   }
 }
 
 if (url.includes("/ota/na/yuantu/infoList")) {
-if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.top_banner_card && obj.data.disorder_cards.top_banner_card.data && obj.data.disorder_cards.top_banner_card.data[0] && obj.data.disorder_cards.top_banner_card.data[0].T === "yuentu_top_banner") {
-    // 移除顶部卡片
+  if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.top_banner_card && obj.data.disorder_cards.top_banner_card.data && obj.data.disorder_cards.top_banner_card.data[0] && obj.data.disorder_cards.top_banner_card.data[0].T === "yuentu_top_banner") {
     obj.data.disorder_cards.top_banner_card.data.splice(0, 1);
- }
+  }
+}
+
+if (url.includes("/gulfstream/passenger-center/v2/other/pInTripLayout")) {
+  const namesToRemove = ["passenger_common_casper"];
+  obj.data.page_conf.order_components = obj.data.page_conf.order_components.filter(
+    component => !(component.name && namesToRemove.includes(component.name))
+  );
 }
 
 if (url.includes("/usercenter/me")) {
@@ -53,10 +59,6 @@ if (url.includes("/usercenter/me")) {
       }
     });
   }
-}
-
-if (url.includes("/resapi/activity/mget") || url.includes("/dynamic/conf") || url.includes("/homepage/v1/other/fast") || url.includes("/agent/v3/feeds") || url.includes("/resapi/activity/xpget") || url.includes("/gateway")) {
-  delete obj.data;
 }
 
 $done({ body: JSON.stringify(obj) });
