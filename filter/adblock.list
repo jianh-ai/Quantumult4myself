@@ -1,6 +1,7 @@
-# 2024-08-18
+# 2024-08
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 api.htp.ad-scope.com.cn
+app-measurement.com
 host-suffix, afcdn.net
 
 # > admobile
@@ -8,14 +9,21 @@ host-suffix, admobile.top
 
 # > alibaba
 hudong.alicdn.com
-ems.youku.com
 appdownload.alicdn.com
 host-keyword, adash
+host-suffix, mmstat.com
 # tanx
 host-suffix, tanx.com
 # taobao
 rhdc-acs.m.taobao.com
 host-keyword, ut.taobao.com
+# youku
+galitv.alicdn.com
+yk-ssp.ad.youku.com
+adx-open-service.youku.com
+adx-core.youku.com
+ems.youku.com
+appsdk.soku.com
 
 # > apple
 launch.apple.com
@@ -72,6 +80,8 @@ notify.bczeducation.cn
 events.bczeducation.cn
 
 # >>>>>>>>>>>>>>> ✅ c ✅ <<<<<<<<<<<<<<
+host-keyword, xdplt.com
+
 # caiyun
 ad.cyapi.cn
 abyss.cyapi.cn
@@ -80,6 +90,7 @@ abyss.cyapi.cn
 ma-adx.ctrip.com
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
+iects.doglobal.net
 
 # >>>>>>>>>>>>>>> ✅ e ✅ <<<<<<<<<<<<<<
 
