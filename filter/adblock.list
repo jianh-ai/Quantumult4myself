@@ -1,4 +1,4 @@
-# 2024-08
+# 2024-08-18
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 api.htp.ad-scope.com.cn
 app-measurement.com
@@ -372,7 +372,6 @@ zxid-m.mobileservice.cn
 # > zijie
 dig.bdurl.net
 dig.zjurl.cn
-dsp.toutiao.com
 if-analytics.bytescm.com
 lf-analytics.bytescm.com
 lf-cdn-tos.bytescm.com
@@ -380,15 +379,19 @@ webcast-open.douyin.com
 webcast5-open-lq.douyin.com
 webcast5-open-lf.douyin.com
 p3-webcast-sign.douyinpic.com
-p6-webcast-sign.douyinpic.com
+p6-webcast-sign.douyinpic.co
+host-keyword, -ad-sign.byteimg.com
+host-keyword, -ad.byteoversea.com
+# toutiao
+dsp.toutiao.com
+mon.toutiaocloud.com
 zlink-sinfonlinea.toutiao.com
 gromore.pangolin-sdk-toutiao.com
 ether-pack.pangolin-sdk-toutiao.com
-host-keyword, -ad-sign.byteimg.com
-host-keyword, -ad.byteoversea.com
 host-keyword, log-api.pangolin-sdk-toutiao
 # amemv
 frontier-aweme-hl-ipainner.amemv.com
+mon11-misc-hl.amemv.com
 mon0-misc-hl.amemv.com
 log0-misc-hl.amemv.com
 # zijieapi
