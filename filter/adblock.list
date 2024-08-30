@@ -1,8 +1,9 @@
 # 2024-08-18
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 api.htp.ad-scope.com.cn
-app-measurement.com
 host-suffix, afcdn.net
+host-suffix, app-measurement.com
+host-suffix, amazon-adsystem.com
 
 # > admobile
 host-suffix, admobile.top
@@ -92,9 +93,10 @@ ma-adx.ctrip.com
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
 iects.doglobal.net
 
-# >>>>>>>>>>>>>>> ✅ e ✅ <<<<<<<<<<<<<<
-
 # >>>>>>>>>>>>>>> ✅ f ✅ <<<<<<<<<<<<<<
+ad2.fivecdm.com
+adchk.fivecdm.com
+
 # > flurry
 ad.flurry.com
 ads.flurry.com
@@ -135,6 +137,8 @@ adapi.izuiyou.com
 api.zuihuimai.com
 
 # >>>>>>>>>>>>>>> ✅ j ✅ <<<<<<<<<<<<<<
+adserver.juicyads.com
+
 # > jd
 dsp-x.jd.com
 bdsp-x.jd.com
@@ -158,6 +162,7 @@ sdk1xyajs.data.kuiniuca.com
 open.e.kuaishou.com
 open.e.kuaishou.cn
 open.kuaishou.com
+open.kuaishouzt.com
 # adukwai
 host-suffix, adukwai.com
 # gifshow
@@ -167,10 +172,9 @@ host-suffix, gifshow.com
 ads.service.kugou.com
 adserviceretry.kugou.com
 
-# >>>>>>>>>>>>>>> ✅ l ✅ <<<<<<<<<<<<<<
-
-
 # >>>>>>>>>>>>>>> ✅ m ✅ <<<<<<<<<<<<<<
+host-suffix, magsrc.com
+
 # mob
 api.share.mob.com
 api.verify.mob.com
@@ -201,15 +205,12 @@ ip-cidr, 203.76.217.241/32
 ip-cidr, 203.76.217.243/32
 ip-cidr, 203.76.217.37/32
 
-# >>>>>>>>>>>>>>> ✅ n ✅ <<<<<<<<<<<<<<
-
-
-# >>>>>>>>>>>>>>> ✅ o ✅ <<<<<<<<<<<<<<
-
-
 # >>>>>>>>>>>>>>> ✅ p ✅ <<<<<<<<<<<<<<
 # > pinduoduo
 titan.pinduoduo.com
+
+# > pixiv
+pixon.ads-pixiv.net
 
 # > pinganjinguanjia
 mina-core.pingan.com
@@ -223,13 +224,12 @@ elis-ecocdn.pingan.com.cn
 # >>>>>>>>>>>>>>> ✅ q ✅ <<<<<<<<<<<<<<
 qemyapi.qiekj.com
 
-# >>>>>>>>>>>>>>> ✅ r ✅ <<<<<<<<<<<<<<
-
-
 # >>>>>>>>>>>>>>> ✅ s ✅ <<<<<<<<<<<<<<
 host-keyword, sigmob.cn
 
 # >>>>>>>>>>>>>>> ✅ t ✅ <<<<<<<<<<<<<<
+host-suffix, tsyndicate.com
+
 # > tuia
 adx.tuia.cn
 
@@ -315,11 +315,11 @@ host-suffix, ignslkgs.com
 host-suffix, trikeunpured.com
 host-suffix, cloudfront.net
 host-suffix, xn--czr93rxry.com
-host-suffix, xn--czr93rxry.com
 host-suffix, xn--mts60is5y5uk.com
 host-suffix, xn--swt207gl1hzc.net
 host-suffix, xn--2qux23cs4e63q.com
 host-suffix, xn--b0tp7pc6a827b.cc
+host-suffix, xn--qrq171dxpq.com
 
 # >>>>>>>>>>>>>>> ✅ w ✅ <<<<<<<<<<<<<<
 # > weibo
@@ -386,11 +386,12 @@ dig.zjurl.cn
 if-analytics.bytescm.com
 lf-analytics.bytescm.com
 lf-cdn-tos.bytescm.com
+content-open.douyin.com
 webcast-open.douyin.com
 webcast5-open-lq.douyin.com
 webcast5-open-lf.douyin.com
 p3-webcast-sign.douyinpic.com
-p6-webcast-sign.douyinpic.co
+p6-webcast-sign.douyinpic.com
 host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
 # toutiao
@@ -418,6 +419,7 @@ gecko3-lq.zijieapi.com
 gecko3.zijieapi.com
 gecko5.zijieapi.com
 applog.zijieapi.com
+log.zijieapi.com
 timon.zijieapi.com
 mon.zijieapi.com
 ad.zijieapi.com
@@ -436,6 +438,8 @@ dm.pstatp.com
 s3a.pstatp.com
 # volces
 mssdk.volces.com
+apmplus.volces.com
+toblog.volceapplog.com
 # snssdk
 i.snssdk.com
 is-lq.snssdk.com
