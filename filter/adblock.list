@@ -1,8 +1,7 @@
-# 2024-08-30
+# 2024-08-18
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 api.htp.ad-scope.com.cn
 host-suffix, afcdn.net
-host-suffix, app-measurement.com
 host-suffix, amazon-adsystem.com
 
 # > admobile
@@ -173,7 +172,7 @@ ads.service.kugou.com
 adserviceretry.kugou.com
 
 # >>>>>>>>>>>>>>> ✅ m ✅ <<<<<<<<<<<<<<
-host-suffix, magsrc.com
+host-suffix, magsrv.com
 
 # mob
 api.share.mob.com
