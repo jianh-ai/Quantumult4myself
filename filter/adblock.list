@@ -440,6 +440,7 @@ mssdk.volces.com
 apmplus.volces.com
 toblog.volceapplog.com
 # snssdk
+is.snssdk.com
 i.snssdk.com
 is-lq.snssdk.com
 i-lq.snssdk.com
@@ -460,4 +461,4 @@ host-keyword, -applog-lq.fqnovel.com
 
 # >>>>>>>>>>>>>>> ✅ # ✅ <<<<<<<<<<<<<<
 # > 1rtb
-sdk.1rtb.net
+host-suffix, 1rtb.net
