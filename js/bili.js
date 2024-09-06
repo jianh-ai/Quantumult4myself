@@ -2,8 +2,8 @@
 let body=$response.body;
 if(body){
     switch(!0){
-        case /pgc\/season\/app\/related\/recommend\?/.test($request.url):try{let t=JSON.parse(body);t.result?.cards?.length&&(t.result.cards=t.result.cards.filter(t=>2!=t.type)),body=JSON.stringify(t)}catch(i){console.log("bilibili recommend:"+i)}break;
-        case /^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?/.test($request.url):try{let a=JSON.parse(body);delete a.data?.common_equip,body=JSON.stringify(a)}catch(e){console.log("bilibili skin:"+e)}break;
+        case/pgc\/season\/app\/related\/recommend\?/.test($request.url):try{let t=JSON.parse(body);t.result?.cards?.length&&(t.result.cards=t.result.cards.filter(t=>2!=t.type)),body=JSON.stringify(t)}catch(i){console.log("bilibili recommend:"+i)}break;
+        case/^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?/.test($request.url):try{let a=JSON.parse(body);delete a.data?.common_equip,body=JSON.stringify(a)}catch(e){console.log("bilibili skin:"+e)}break;
         case/^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\?/.test($request.url):try{let s=JSON.parse(body),l=[];for(let o of s.data.items)if(!o.hasOwnProperty("banner_item")){if(!(!o.hasOwnProperty("ad_info")&&-1===o.card_goto?.indexOf("ad")&&["small_cover_v2","large_cover_v1","large_cover_single_v9"].includes(o.card_type)))continue;else l.push(o)}s.data.items=l,body=JSON.stringify(s)}catch(d){console.log("bilibili index:"+d)}break;
         case/^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story\?/.test($request.url):try{let r=JSON.parse(body),b=[];for(let p of r.data.items)p.hasOwnProperty("ad_info")||-1!==p.card_goto.indexOf("ad")||b.push(p);r.data.items=b,body=JSON.stringify(r)}catch(c){console.log("bilibili Story:"+c)}break;
         case/^https?:\/\/app\.bilibili\.com\/x\/v\d\/account\/teenagers\/status\?/.test($request.url):try{let n=JSON.parse(body);n.data.teenagers_status=0,body=JSON.stringify(n)}catch(y){console.log("bilibili teenagers:"+y)}break;
