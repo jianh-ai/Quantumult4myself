@@ -1,3 +1,5 @@
+// 2024-09
+
 sojson=~[];
 sojson={___:++sojson,$$$$:(![]+"")[sojson],__$:++sojson,$_$_:(![]+"")[sojson],_$_:++sojson,$_$$:({}+"")[sojson],$$_$:(sojson[sojson]+"")[sojson],_$$:++sojson,$$$_:(!""+"")[sojson],$__:++sojson,$_$:++sojson,$$__:({}+"")[sojson],$$_:++sojson,$$$:++sojson,$___:++sojson,$__$:++sojson};
 sojson.$_=(sojson.$_=sojson+"")[sojson.$_$]+(sojson._$=sojson.$_[sojson.__$])+(sojson.$$=(sojson.$+"")[sojson.__$])+((!sojson)+"")[sojson._$$]+(sojson.__=sojson.$_[sojson.$$_])+(sojson.$=(!""+"")[sojson.__$])+(sojson._=(!""+"")[sojson._$_])+sojson.$_[sojson.$_$]+sojson.__+sojson._$+sojson.$;
