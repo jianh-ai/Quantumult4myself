@@ -49,19 +49,6 @@ if (url.includes("/usercenter/me")) {
 
   if (obj.data && obj.data.cards) {
     obj.data.cards = obj.data.cards.filter(card => !excludedTitles.includes(card.title));
-
-    obj.data.cards.forEach(card => {
-      if (card.tag === "wallet") {
-        if (card.items) {
-          card.items = card.items.filter(item => item.title === "优惠券");
-        }
-        if (card.card_type === 4 && card.bottom_items) {
-          card.bottom_items = card.bottom_items.filter(item => 
-            item.title === "省钱套餐" || item.title === "天天神券"
-          );
-        }
-      }
-    });
   }
 }
 
