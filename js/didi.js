@@ -24,8 +24,8 @@ if (url.includes("/homepage/v1/core")) {
     obj.data.disorder_cards.bottom_nav_list.data = obj.data.disorder_cards.bottom_nav_list.data.filter(item => !removeBottomNavIds.includes(item.id));
   }
   
-  // 保留底部首页、车主、送货、我的
-  const keepBottomNavIds = ['v6x_home', 'freight_cargo', 'user_center'];
+  // 保留底部首页、送货、我的
+  const keepBottomNavIds = ['v6x_home', 'freight_cargo', 'user_center', 'home_page'];
   if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.bottom_nav_list && obj.data.disorder_cards.bottom_nav_list.data) {
     obj.data.disorder_cards.bottom_nav_list.data = obj.data.disorder_cards.bottom_nav_list.data.filter(item => keepBottomNavIds.includes(item.id));
   }
