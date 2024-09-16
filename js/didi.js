@@ -25,7 +25,7 @@ if (url.includes("/homepage/v1/core")) {
   }
   
   // 保留底部首页、车主、送货、我的
-  const keepBottomNavIds = ['v6x_home', 'car_owner', 'freight_cargo', 'user_center'];
+  const keepBottomNavIds = ['v6x_home', 'freight_cargo', 'user_center'];
   if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.bottom_nav_list && obj.data.disorder_cards.bottom_nav_list.data) {
     obj.data.disorder_cards.bottom_nav_list.data = obj.data.disorder_cards.bottom_nav_list.data.filter(item => keepBottomNavIds.includes(item.id));
   }
