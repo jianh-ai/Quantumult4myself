@@ -19,13 +19,13 @@ if (url.includes("/other/pGetSceneList")) {
 
 if (url.includes("/homepage/v1/core")) {
   // 删除送货、金融、公交、火车票
-  const removeBottomNavIds = ['freight', 'huochepiao'，'gongjiao'];
+  const removeBottomNavIds = ['freight'];
   if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.bottom_nav_list && obj.data.disorder_cards.bottom_nav_list.data) {
     obj.data.disorder_cards.bottom_nav_list.data = obj.data.disorder_cards.bottom_nav_list.data.filter(item => !removeBottomNavIds.includes(item.id));
   }
   
   // 保留底部首页、送货、我的
-  const keepBottomNavIds = ['v6x_home', 'freight_cargo', 'user_center', 'home_page'];
+  const keepBottomNavIds = ['v6x_home', 'home_page', 'freight_cargo', 'user_center'];
   if (obj.data && obj.data.disorder_cards && obj.data.disorder_cards.bottom_nav_list && obj.data.disorder_cards.bottom_nav_list.data) {
     obj.data.disorder_cards.bottom_nav_list.data = obj.data.disorder_cards.bottom_nav_list.data.filter(item => keepBottomNavIds.includes(item.id));
   }
