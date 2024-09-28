@@ -376,8 +376,8 @@ crash2.zhihu.com
 mqtt.zhihu.com
 sugar.zhihu.com
 zxid-m.mobileservice.cn
-ip-cidr, 118.89.204.198
-ip-cidr, 103.41.167.237
+ip-cidr, 118.89.204.198/32
+ip-cidr, 103.41.167.237/32
 
 # > zijie
 dig.bdurl.net
