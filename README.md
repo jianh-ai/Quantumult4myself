@@ -7,9 +7,7 @@ beta.config集成biliuniverse，需要搭配boxjs完成自定义
 jhanix.config保持常用修改，无法自定义
 
 ___
-eapi解锁
-
-@t.me/yqc_123 `https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js`
+eapi解锁 `https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js`
 
 ---
 thank for
