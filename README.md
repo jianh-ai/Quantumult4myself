@@ -1,6 +1,12 @@
 # Quantumult4myself
 rules'document for myself
 
+___
+beta.config集成biliuniverse，需要搭配boxjs完成自定义
+
+jhanix.config保持常用修改，无法自定义
+
+___
 eapi解锁
 
 @t.me/yqc_123 `https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js`
@@ -8,7 +14,7 @@ eapi解锁
 ---
 thank for
 
-@RuCu6 `https://github.com/RuCu6/QuanX/`
+@RuCu6 `https://github.com/RuCu6/QuanX`
 
 @ddgksf2013 `https://github.com/ddgksf2013/ddgksf2013`
 
@@ -16,10 +22,10 @@ thank for
 
 @orz-3 `https://github.com/Orz-3/QuantumultX`
 
-@gjwj666 `https://raw.githubu.com/gjwj666/qx`
-
 @blackmatrix7 `https://github.com/blackmatrix7/ios_rule_script/tree/master`
 
 @ZenmoFeiShi `https://github.com/ZenmoFeiShi/Qx`
 
 @keli `https://github.com/luestr/ProxyResource/tree/main/Tool/Loon/Plugin`
+
+@Virgil Clyne `https://github.com/BiliUniverse/Universe/wiki/🧰-BoxJs`
