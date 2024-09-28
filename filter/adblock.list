@@ -65,9 +65,8 @@ httpdns.baidubce.com
 nmtest.bdstatic.com
 mobads-pre-config.cdn.bcebos.com
 host-suffix, tuisong.baidu.com
-
-# > bilibili
-httpdns.bilivideo.com
+ip-cidr, 180.76.76.200
+ip-cidr, 180.76.76.112
 
 # > baicizhan
 notify.baicizhan.com
@@ -91,12 +90,6 @@ ma-adx.ctrip.com
 
 # >>>>>>>>>>>>>>> ✅ d ✅ <<<<<<<<<<<<<<
 iects.doglobal.net
-
-# > didi
-gwp.xiaojukeji.com
-hd.xiaojukeji.com
-ip-cidr, 123.207.209.60/32
-ip-cide, 123.207.209.39/32
 
 # >>>>>>>>>>>>>>> ✅ f ✅ <<<<<<<<<<<<<<
 ad2.fivecdm.com
@@ -143,6 +136,7 @@ api.zuihuimai.com
 
 # >>>>>>>>>>>>>>> ✅ j ✅ <<<<<<<<<<<<<<
 adserver.juicyads.com
+ad-transform.kakamobi.cn
 
 # > jd
 dsp-x.jd.com
@@ -153,7 +147,6 @@ xlog.jd.com
 janapi.jd.com
 ip-cidr, 103.224.222.208/32
 ip-cidr, 101.124.19.122/32
-ip6-cidr, 2402:db40:5100:1011::5/128
 
 # > jpush
 host-suffix, jiguang.cn
@@ -334,7 +327,6 @@ biz.weibo.cn
 biz.weibo.com.cn
 wax.weibo.com.cn
 huodong.weibo.cn
-adimg.uve.weibo.com
 gw5.push.mcp.weibo.cn 
 gw6.push.mcp.weibo.cn
 ad.us.sinaimg.cn
@@ -384,6 +376,8 @@ crash2.zhihu.com
 mqtt.zhihu.com
 sugar.zhihu.com
 zxid-m.mobileservice.cn
+ip-cidr, 118.89.204.198
+ip-cidr, 103.41.167.237
 
 # > zijie
 dig.bdurl.net
