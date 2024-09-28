@@ -65,8 +65,8 @@ httpdns.baidubce.com
 nmtest.bdstatic.com
 mobads-pre-config.cdn.bcebos.com
 host-suffix, tuisong.baidu.com
-ip-cidr, 180.76.76.200
-ip-cidr, 180.76.76.112
+ip-cidr, 180.76.76.200/32
+ip-cidr, 180.76.76.112/32
 
 # > baicizhan
 notify.baicizhan.com
