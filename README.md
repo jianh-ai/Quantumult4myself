@@ -1,6 +1,9 @@
 # Quantumult4myself
 rules'document for myself
 
+eapi解锁
+@t.me/yqc_123 `https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/NeteaseCloudMusic/netease.js`
+
 ---
 thank for
 
