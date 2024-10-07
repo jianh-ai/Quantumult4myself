@@ -1,4 +1,4 @@
-# 2024-08-18
+# 2024-10-07
 # >>>>>>>>>>>>>>> ✅ a ✅ <<<<<<<<<<<<<<
 api.htp.ad-scope.com.cn
 host-suffix, afcdn.net
@@ -24,6 +24,8 @@ adx-open-service.youku.com
 adx-core.youku.com
 ems.youku.com
 appsdk.soku.com
+# adrive
+ip-cidr, 203.107.1.1/24
 
 # > apple
 launch.apple.com
@@ -140,11 +142,14 @@ ad-transform.kakamobi.cn
 
 # > jd
 dsp-x.jd.com
+im-x.jd.com
 bdsp-x.jd.com
 dns.jd.com
 dsp-x.jd.com
 xlog.jd.com
 janapi.jd.com
+ads-union.jd.com
+ads.union.jd.com
 ip-cidr, 103.224.222.208/32
 ip-cidr, 101.124.19.122/32
 
@@ -250,10 +255,11 @@ host-suffix, ugdtimg.com
 ios.bugly.qq.com
 sdk.e.qq.com
 otheve.beacon.qq.com
-stat.y.qq.com
-tmead.y.qq.com
-tmeadkg.y.qq.com
 oth.str.mdt.qq.com
+h.trace.qq.com
+p.l.qq.com
+us.l.qq.com
+tangram.e.qq.com
 ios.video.mpush.qq.com
 info4.video.qq.com
 info6.video.qq.com
@@ -264,6 +270,10 @@ host-suffix, l.qq.com
 host-keyword, trace.qq.com
 host-keyword, trace.video.qq.com
 # qqmusic
+stat.y.qq.com
+tmead.y.qq.com
+tmeadquic.y.qq.com
+tmeadkg.y.qq.com
 monitor.music.qq.com
 adstats.tencentmusic.com
 ad.tencentmusic.com
@@ -271,6 +281,7 @@ adcdn.tencentmusic.com
 adcdn6.tencentmusic.com
 adexpo.tencentmusic.com
 adclick.tencentmusic.com
+host-suffix, imtmp.net
 
 # >>>>>>>>>>>>>>> ✅ u ✅ <<<<<<<<<<<<<<
 # > umeng
