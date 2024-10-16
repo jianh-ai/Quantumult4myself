@@ -27,18 +27,6 @@ appsdk.soku.com
 # adrive
 ip-cidr, 203.107.1.1/24
 
-# > apple
-launch.apple.com
-iad.apple.com
-iadcontent.apple.com
-iadmoo.apple.com
-iadworkbench.apple.com
-advertising.apple.com
-api-adservices.apple.com
-banners.itunes.apple.com
-host-suffix, iad-apple.com
-host-suffix, iadsdk.apple.com
-
 # >>>>>>>>>>>>>>> ✅ b ✅ <<<<<<<<<<<<<<
 bianxianmao.com
 host-keyword, beizi.biz
@@ -322,7 +310,6 @@ host-suffix, popdemission.com
 host-suffix, nawpush.com
 host-suffix, ignslkgs.com
 host-suffix, trikeunpured.com
-host-suffix, cloudfront.net
 host-suffix, xn--czr93rxry.com
 host-suffix, xn--mts60is5y5uk.com
 host-suffix, xn--swt207gl1hzc.net
