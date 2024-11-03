@@ -371,10 +371,18 @@ ip-cidr, 118.89.204.198/32
 ip-cidr, 103.41.167.237/32
 
 # > zijie
+dig.bdurl.net
+dig.zjurl.cn
 if-analytics.bytescm.com
 lf-analytics.bytescm.com
 lf-cdn-tos.bytescm.com
 if-cdn-tos.bytescm.com
+content-open.douyin.com
+webcast-open.douyin.com
+webcast5-open-lq.douyin.com
+webcast5-open-lf.douyin.com
+p3-webcast-sign.douyinpic.com
+p6-webcast-sign.douyinpic.com
 host-keyword, -ad-sign.byteimg.com
 host-keyword, -ad.byteoversea.com
 # toutiao
@@ -385,9 +393,6 @@ gromore.pangolin-sdk-toutiao.com
 ether-pack.pangolin-sdk-toutiao.com
 host-keyword, api-access.pangolin-sdk-toutiao
 host-keyword, log-api.pangolin-sdk-toutiao
-# amemv
-mon11-misc-hl.amemv.com
-mon0-misc-hl.amemv.com
 # zijieapi
 ma5-normal-hl.zijieapi.com
 minigame5-normal.zijieapi.com
