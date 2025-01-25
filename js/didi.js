@@ -1,4 +1,5 @@
-// 2024-06
+// 2024-10-26
+
 const url = $request.url;
 if (!$response.body) $done({});
 
@@ -39,14 +40,14 @@ if (url.includes("/ota/na/yuantu/infoList")) {
 
 if (url.includes("/gulfstream/passenger-center/v2/other/pInTripLayout")) {
   const namesToRemove = ["passenger_common_casper"];
-  obj.data.page_conf.order_components = obj.data.page_conf.order_components.filter(
+  obj.data.order_components = obj.data.order_components.filter(
     component => !(component.name && namesToRemove.includes(component.name))
   );
 }
 
 if (url.includes("/usercenter/me")) {
-  const excludedTitles = ['金融服务', '企业服务', '安全中心'];
-
+  const excludedTitles = ['金融服务'];
+  // 删除金融服务
   if (obj.data && obj.data.cards) {
     obj.data.cards = obj.data.cards.filter(card => !excludedTitles.includes(card.title));
   }
