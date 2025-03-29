@@ -66,7 +66,7 @@ if (url.includes("/x/resource/show/skin")) {
       if (item?.style) {
         if (item?.style === 1 || item?.style === 2) {
           if (item?.title) {
-            // 保留指定模块
+            // 只保留需要的模块
             if (["创作中心", "游戏中心", "会员购中心", "我的直播", "个性装扮", "我的课程", "漫画", "离线缓存", "历史记录", "我的收藏", "稍后再看"].includes(item.title)) {
               newSects.push(item);
             } else if (item?.title === "更多服务") {
@@ -86,8 +86,6 @@ if (url.includes("/x/resource/show/skin")) {
                   newSects.push(item);
                 }
               }
-            } else {
-              newSects.push(item); // 其他未过滤的模块保留
             }
           }
         }
