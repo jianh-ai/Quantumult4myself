@@ -36,58 +36,65 @@ if (url.includes("/x/resource/show/skin")) {
   obj = { code: -404, message: "啥都木有", ttl: 1, data: null };
 } else if (url.includes("/x/v2/account/mine")) {
   // 我的页面
-  const del = ["ipad_upper_sections", "rework_v1", "vip_section", "vip_section_v2"];
+  const del = ["ipad_upper_sections", "rework_v1"];
   for (let i of del) {
-    delete obj.data[i]; // 不必要项目
+    delete obj.data[i]; // 删除不必要项目
   }
-  // iPad 我的页面
+
+  // 保留需要的模块ID
+  const keepIpad = [789, 790, 791, 792, 793, 794, 2542]; // iPad: 关注、消息、钱包、直播、会员、课程、游戏
+  const keepMore = [797, 798, 1070]; // iPad: 客服、设置、青少年守护
+
+  // 处理 iPad 我的页面
   if (obj?.data?.ipad_recommend_sections?.length > 0) {
-    const itemList = [789, 790]; // 789我的关注 790我的消息 791我的钱包 792直播中心 793大会员 794我的课程 2542我的游戏
-    obj.data.ipad_recommend_sections = obj.data.ipad_recommend_sections.filter((i) => itemList?.includes(i.id));
+    obj.data.ipad_recommend_sections = obj.data.ipad_recommend_sections.filter((i) => keepIpad.includes(i.id));
   }
+
   if (obj?.data?.ipad_more_sections?.length > 0) {
-    const itemList = [797, 798]; // 797我的客服 798设置 1070青少年守护
-    obj.data.ipad_more_sections = obj.data.ipad_more_sections.filter((i) => itemList?.includes(i.id));
+    obj.data.ipad_more_sections = obj.data.ipad_more_sections.filter((i) => keepMore.includes(i.id));
   }
-  // iPhone 我的页面
+
+  // 处理 iPhone 我的页面
   if (obj?.data?.sections_v2?.length > 0) {
     let newSects = [];
+
     for (let item of obj.data.sections_v2) {
       if (item?.button) {
-        delete item.button;
+        delete item.button; // 删除多余按钮
       }
+
       if (item?.style) {
         if (item?.style === 1 || item?.style === 2) {
           if (item?.title) {
-            if (item?.title === "创作中心" || item?.title === "推荐服务") {
-              continue; // 创作中心 推荐服务
+            // 保留指定模块
+            if (["创作中心", "游戏中心", "会员购中心", "我的直播", "个性装扮", "我的课程", "漫画"].includes(item.title)) {
+              newSects.push(item);
             } else if (item?.title === "更多服务") {
-              if (item?.title) {
-                delete item.title;
-              }
               if (item?.items?.length > 0) {
                 let newItems = [];
+
                 for (let i of item.items) {
                   if (/user_center\/feedback/g.test(i?.uri)) {
                     newItems.push(i); // 联系客服
                   } else if (/user_center\/setting/g.test(i?.uri)) {
                     newItems.push(i); // 设置
-                  } else {
-                    continue;
                   }
                 }
-                item.items = newItems;
+
+                if (newItems.length > 0) {
+                  item.items = newItems;
+                  newSects.push(item);
+                }
               }
             }
           }
-        } else {
-          continue; // 其他style
         }
       }
-      newSects.push(item);
     }
+
     obj.data.sections_v2 = newSects;
   }
+
   // 非会员开启本地会员标识
   if (obj?.data?.vip) {
     if (obj?.data?.vip?.status === 0) {
