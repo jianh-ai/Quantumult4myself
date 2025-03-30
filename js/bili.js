@@ -63,7 +63,8 @@ if (body) {
 						uri: "bilibili://live/home",
 						tab_id: "直播tab",
 						pos: 1
-					}, {
+					}),
+					f.push({
 						id: 40,
 						name: "推荐",
 						uri: "bilibili://pegasus/promo",
@@ -71,24 +72,21 @@ if (body) {
 						pos: 2,
 						default_selected: 1
 					}), 
-                    
-                    f.push({
+                    			f.push({
 						id: 41,
 						name: "热门",
 						uri: "bilibili://pegasus/hottopic",
 						tab_id: "hottopic",
 						pos: 3
 					}), 
-                    
-                    f.push({
+                    			f.push({
 						id: 545,
 						name: "番剧",
 						uri: "bilibili://pgc/home",
 						tab_id: "bangumi",
 						pos: 4
-					}), 
-                    
-                    h.data.tab = f
+					}), 		
+                    			h.data.tab = f
 				}
                 
 				if (h.data.top && (h.data.top = [{
