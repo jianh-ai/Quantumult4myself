@@ -5,107 +5,109 @@ if (!$response) $done({});
 if (!$response.body) $done({});
 let obj = JSON.parse($response.body);
 
-if (url.includes("/mtop.idle.user.page.my.adapter/")) {
-  // 我的页面
-  if (obj?.data?.container?.sections?.length > 0) {
-    let newSections = [];
-    for (let items of obj.data.container.sections) {
-      if (items?.template?.name === "my_fy25_user_info") {
-        // 专属等级横幅
-        delete items.item.level;
-      } else if (items?.template?.name === "my_fy25_slider") {
-        // 滚动小提示
-        continue;
-      } 
-      if (items?.template?.name === "my_fy25_community") {
-        // 底部乱七八糟无用内容
-        continue;
-      }
-      newSections.push(items);
-    }
-    obj.data.container.sections = newSections;
-  }
-} else if (url.includes("/mtop.taobao.idlehome.home.nextfresh/")) {
-  delete obj.data.bannerReturnDO; // 首页横幅
-  // 首页信息流
-  if (obj?.data?.sections?.length > 0) {
-    obj.data.sections = obj.data.sections.filter(
-      (i) =>
-        ![
-          "fish_home_advertise_card_d4",
-          "fish_home_content_card",
-          "fish_home_feeds_commodity_card_2",
-          "fish_home_feeds_pager_banner"
-        ]?.includes(i?.template?.name)
+if (url.includes("/mtop.taobao.idlehome.home.nextfresh/")) {
+  if (body?.data?.homeTopList) {
+    body.data.homeTopList = body.data.homeTopList.filter(
+      (s) => s.sectionType === "kingkongDo"
     );
   }
-  if (obj?.data?.widgetReturnDO?.widgets?.length > 0) {
-    let widget = obj?.data?.widgetReturnDO?.widgets[0];
-    if (widget?.widgetDO?.channelDOList?.length > 0) {
-      widget.widgetDO.channelDOList = widget.widgetDO.channelDOList.filter((i) =>
-        ["手机数码", "分类", "上门回收", "闲鱼鱼市", "闲鱼鉴别", ""]?.includes(i?.title)
-      );
+  if (body?.data?.sections) {
+    body.data.sections = body.data.sections.filter((s) => {
+      const cardType = s?.data?.clickParam?.args?.cardType;
+      return cardType !== "homeMultiBanner" && cardType !== "mamaAD";
+    });
+  }
+} else if (url.includes("/mtop.taobao.idlehome.widget.refresh.get/")) {
+  if (body?.data?.homeTopList) {
+    body.data.homeTopList = body.data.homeTopList.filter(
+      (s) => s.sectionType === "kingkongDo"
+    );
+  }
+} else if (url.includes("/mtop.taobao.idle.home.whale.modulet/")) {
+  if (body?.data?.container?.sections) {
+    body.data.container.sections = body.data.container.sections.filter(
+      (s) => s.template?.name === "fish_home_miniapp"
+    );
+  }
+} else if (url.includes("/mtop.taobao.idle.user.strategy.list/")) {
+  if (body?.data?.strategies) {
+    body.data.strategies = body.data.strategies.filter(
+      (s) => s.type !== "BIZ_IDLE_COIN_ENTRANCE_2" && s.type !== "FLOAT_LAYER"
+    );
+  }
+} else if (url.includes("/mtop.taobao.idlehome.home.newitem.page/")) {
+  if (body?.data?.sections) {
+    body.data.sections = body.data.sections.filter((s) => {
+      const cardType = s?.data?.clickParam?.args?.cardType;
+      return cardType !== "banner" && cardType !== "mamaAD";
+    });
+  }
+} else if (url.includes("/mtop.taobao.idle.local.flow.plat.section/")) {
+  function deepWalk(obj) {
+    if (typeof obj === 'object' && obj !== null) {
+      if (Array.isArray(obj)) {
+        obj.forEach(deepWalk);
+      } else {
+        if (obj.components && Array.isArray(obj.components)) {
+          obj.components = obj.components.map(comp => {
+            if (comp?.data?.template?.name === "fish_city_banner") {
+              delete comp.data.item;
+            }
+            return comp;
+          });
+        }
+        for (const key in obj) {
+          deepWalk(obj[key]);
+        }
+      }
     }
+  }
+  deepWalk(body);
+} else if (url.includes("/mtop.taobao.idle.local.home/")) {
+  if (body?.data?.sections) {
+    body.data.sections = body.data.sections.filter(
+      (s) => s.template?.cardEnum !== "ads" && s.cardType === "common"
+    );
+  }
+} else if (url.includes("/mtop.idle.user.page.my.adapter/")) {
+  const keepTemplates = [
+    "my_fy25_header",
+    "my_fy25_user_info",
+    "my_fy25_trade",
+    "my_fy25_appraise",
+    "my_fy25_tools"
+  ];
+  if (body?.data?.container?.sections) {
+    body.data.container.sections = body.data.container.sections.filter((s) =>
+      keepTemplates.includes(s.template?.name)
+    );
   }
 } else if (url.includes("/mtop.taobao.idlehome.home.circle.list/")) {
-  if (obj?.data?.circleList?.length > 0) {
-    let newLists = [];
-    for (let list of obj.data.circleList) {
-      if (list?.showType) {
-        list.showType = "text"; // 将首页顶部标签模式修改为文本
+  if (body?.data?.circleList) {
+    body.data.circleList.forEach(circle => {
+      if (circle.showInfo?.titleImage) {
+        circle.showInfo.titleImage.lightUrl = "";
+        circle.showInfo.titleImage.url = "";
+        delete circle.showInfo.titleImage.width;
+        delete circle.showInfo.titleImage.height;
       }
-      delete list.showInfo.titleImage; // 删除将首页顶部图片标签的资源
-      newLists.push(list);
-    }
-    obj.data.circleList = newLists;
+    });
   }
 } else if (url.includes("/mtop.taobao.idlemtopsearch.search/")) {
-  // 搜索结果广告
-  if (obj?.data?.resultList?.length > 0) {
-    obj.data.resultList = obj.data.resultList.filter(
-      (i) =>
-        !(
-          i?.data?.template?.name === "idlefish_seafood_vote" || // 搜索结果 投票
-          i?.data?.template?.name === "idlefish_search_card_category_select" || // 大家都在搜
-          i?.data?.item?.main?.exContent?.isAliMaMaAD === "true" || // 广告1
-          i?.data?.item?.main?.exContent?.isAliMaMaAD === true // 广告2
-        )
+  if (body?.data?.resultList) {
+    body.data.resultList = body.data.resultList.filter(
+      (item) => item?.data?.item?.main?.exContent?.dislikeFeedback?.clickParam?.args?.bizType !== "ad"
     );
   }
-}
-
-if (url.includes("/gw/mtop.taobao.idlehome.home.nextfresh")) {
-  // 可能存在的首页标签
-  delete obj.data.widgetReturnDO;
-  // 删除banner图
-  delete obj.data.bannerReturnDO;
-  // 信息流广告
-  if (obj.data?.sections) {
-    obj.data.sections = obj.data.sections.filter(section => {
-      return !(section.data && (section.data.bizType === "AD" || section.data.bizType === "homepage"));
-    });
-
-    let excludeNames = ['fish_home_yunying_card_d3', 'idlefish_seafood_market', 'fish_home_chat_room'];
-    obj.data.sections = obj.data.sections.filter(function(section) {  
-      return !excludeNames.includes(section.template.name);  
+} else if (url.includes("/mtop.taobao.idlemtopsearch.item.search.activate/")) {
+  if (body?.data?.cardList) {
+    body.data.cardList = body.data.cardList.map(card => {
+      if (card.cardData?.hotwords) {
+        delete card.cardData.hotwords;
+      }
+      return card;
     });
   }
 }
 
-if (url.includes("/gw/mtop.taobao.idle.local.home")) {
-  if (obj.data?.sections) {
-    obj.data.sections = obj.data.sections.filter(section => {
-      return !(section.data && section.data.bizType === "AD");
-    });
-  }
-}
-
-if (url.includes("/gw/mtop.taobao.idle.home.whale.modulet")) {
-  delete obj.data.container.sections;
-}
-
-if (url.includes("/gw/mtop.taobao.idlemtopsearch.search.shade") || url.includes("/gw/mtop.taobao.idle.user.strategy.list")) {
-  delete obj.data;
-}
-
-$done({ body: JSON.stringify(obj) });
+$done({ body: JSON.stringify(body) });
