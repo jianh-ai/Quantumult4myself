@@ -1,4 +1,4 @@
-// 2024-10-26
+// 2025-06-27
 
 const url = $request.url;
 if (!$response.body) $done({});
@@ -175,6 +175,7 @@ if (url.includes("functionId=deliverLayer") || url.includes("functionId=orderTra
       "float", // 悬浮推广小圆图
       "photoCeiling", // 顶部通栏动图推广
       // "recommend", // 为你推荐
+      "hybrid", //瀑布流卡片
       "ruleFloat", // 资质与规则
       "searchIcon", // 右上角消费券
       "topRotate", // 左上角logo
@@ -183,13 +184,19 @@ if (url.includes("functionId=deliverLayer") || url.includes("functionId=orderTra
     // 首页 图层列表
     obj.floorList = obj.floorList.filter((i) => !delItems?.includes(i?.type));
   }
+
   // 首页 顶部背景图
   // if (obj?.topBgImgBig) {
   //   delete obj.topBgImgBig;
   // }
+
   // 首页 下拉二楼
   if (obj?.webViewFloorList?.length > 0) {
     obj.webViewFloorList = [];
+  }
+  // 首页 右侧图标
+  if (obj?.promotionTabs) {
+    delete obj.promotionTabs;
   }
 }
 
